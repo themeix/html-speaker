@@ -45,18 +45,7 @@
 
 
 
-  function toggle(id) {
-    a = document.getElementById('toggle_'+id);
-    b = document.getElementById('display_'+id);
-      if (a.style.display=='block') {
-        a.style.display='none';
-        b.innerHTML='Learn More';
-      }
-      else {
-        a.style.display='block';
-        b.innerHTML='Show Less';
-    }
-  }
+ 
 
 
 

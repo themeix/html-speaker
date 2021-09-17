@@ -4,6 +4,14 @@ body {
     font-size: 1.125rem;
     line-height: 1.77;
     font-weight: 400;
+    color:#0F172A;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 h1,
@@ -356,10 +364,6 @@ body {
     fill: #007FB3;
 }
 
-
-
-
-
 .header-sticky {
     background-color: #ffffff;
     position: fixed;
@@ -373,5 +377,9 @@ body {
 
 }
 
+
+.subscribe-btn .btn{
+    display: block !important;
+}
 
 
