@@ -50,10 +50,10 @@
             <div class="mobile-menu hidden lg:flex flex-wrap items-center shadow-xl lg:shadow-none  ">
                <ul class="navbar-nav lg:flex items-center text-base">
                   <li><a class="text-blueGray-900 font-medium text-base" href="about.html"> About</a></li>
-                  <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base" href="about.html">
+                  <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base" href="services.html">
                         Services <span class="sub-toggle">+</span></a>
                      <ul class="dropdown-menu lg:pt-6 bg-transparent ">
-                        <li><a class="font-medium text-blueGray-900 text-base" href="resource1.html"> eBooks / Tools /
+                        <li><a class="font-medium text-blueGray-900 text-base" href="ebooks.html"> eBooks / Tools /
                               Assessment </a></li>
                         <li><a class="font-medium text-blueGray-900 text-base" href="newsletter-archive.html">Newsletter
                               Archive</a></li>
@@ -68,7 +68,7 @@
 
                   <li><a class="font-medium text-blueGray-900 text-base" href="insights.html"> Insights </a></li>
                   <li><a class="font-medium text-blueGray-900 text-base" href="contact.html"> Get In Touch </a></li>
-                  <li><a class="font-medium text-blueGray-900 text-base inline-block" href="#" onclick="toggleModal()">
+                  <li class="hidden lg:block"><a class="font-medium text-blueGray-900 text-base inline-block" href="#" onclick="toggleModal()">
                         <span><svg class="inline-block h-5 w-5" width="22" height="22" viewBox="0 0 22 22" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                               <path
@@ -83,7 +83,7 @@
 
 
       </div>
-      <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden " id="modal">
+      <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden h-full bg-white" id="modal">
 
          <div class="modal-dialog w-full max-w-full m-0">
             <div class="modal-content bg-white pb-24">
@@ -166,19 +166,17 @@
 
       <div class="breadcrumbs-area pt-32">
          <div class="container mx-auto">
-            <div class="sm:grid grid-flow-col sm:grid-cols-2 items-center  gap-8">
+            <div class="sm:grid grid-flow-col sm:grid-cols-1 items-center  gap-8">
                <div>
                   <ol class="rounded flex font-medium mb-6">
                      <li class="px-2 opacity-75 font-normal text-base text-blueGray-900"><a href="index.html"
                            class="underline-hover  font-normal">Home</a></li>
                      <li class="text-blueGray-900 opacity-75 font-normal text-base">/</li>
-                     <li class=" text-base px-2 text-blueGray-900 opacity-75 font-normal">Keynote Topics</li>
+                     <li class=" text-base px-2 text-blueGray-900 opacity-75 font-normal">The f(x) = ex newsletter archive</li>
                   </ol>
-                  <h1 class="font-bold text-6xl mb-6">Newsletter Archive</h1>
-                  <p>I’ve been doing my newsletter – the f(x) = e^x – every week since 2017. Each newsletter contains my
-                     latest article and three useful nuggets of information. There are now around 27,000 subscribers.
-                     You
-                     should sign up too – apparently, it’s pretty good.</p>
+                  <h1 class="font-bold text-6xl mb-6">The f(x) = ex newsletter archive</h1>
+                  <p>The Digital Speaker has been doing the  f(x) = ex newsletter almost every week since 2017. Each newsletter contains the latest article and three useful nuggets of information. Below, you can view all the newsletters ever published. Enjoy!
+                  </p>
                </div>
             </div>
          </div>
@@ -190,12 +188,11 @@
          <div class="container mx-auto">
             <div class="py-10 bg-lightBlue-100 rounded-md">
                <div class="section-title w-10/12 m-auto text-center">
-                  <h3 class="text-3xl font-bold mb-4">Subscribe Newsletter</h3>
-                  <p class="text-base">I’ve been doing my newsletter – the f(x) = e^x – every week since 2017. Each
-                     newsletter contains my latest article and three useful nuggets of information. There are now around
-                     27,000 subscribers. You should sign up too – apparently, it’s pretty good.</p>
+                  <h3 class="text-3xl font-bold mb-4">Subscribe to the newsletter</h3>
+                  <p class="text-base">If the below f(x) = ex newsletter archive piques your interest, you can subscribe below. We will only use your email address to send this newsletter and you can unsubscribe at any moment.
+                  </p>
                </div>
-               <form class=" md:w-4/12 m-auto mt-6 w-10/12" action="#">
+               <form class=" lg:w-4/12 m-auto mt-6 w-10/12" action="#">
                   <input
                      class=" appearance-none border  w-full rounded-sm py-3 px-4 mb-6 text-blueGray-600 text-lg leading-tight  "
                       type="text" placeholder="Name">
@@ -222,9 +219,16 @@
       </section>
       <!--  ====================== Subscribe Newsletter Area End =============================  -->
       <!--  ====================== Newsletter Block Area Start =============================  -->
-      <section class="newsletter-block-area py-32">
+      <section class="newsletter-block-area py-20 lg:py-32">
          <div class="container mx-auto">
-            <div class="sm:flex gap-8 mb-10">
+            <div class="sm:flex gap-8 mb-10 ">
+               <div  class="sm:w-3/12 order-last">
+                  <div class="overflow-hidden rounded-md mb-6 sm:mb-0">
+                     <img class="rounded-md transition duration-700 ease-in-out w-full  transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-1.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -239,16 +243,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-1.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12  order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-2.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -263,16 +268,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-2.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div  class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-3.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -287,16 +293,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-3.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-4.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -311,16 +318,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-4.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+               
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-5.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -335,16 +343,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-5.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+               
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-6.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -359,16 +368,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-6.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-7.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -383,16 +393,17 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-7.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
             <div class="sm:flex gap-8 mb-10">
+               <div class="sm:w-3/12 order-last mb-6 sm:mb-0">
+                  <div class="overflow-hidden rounded-md">
+                     <img class="w-full rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
+                        src="assets/images/newsletter-archive/archive-8.jpg" alt="archive-1">
+                  </div>
+
+               </div>
                <div class=" sm:w-2/12">
                   <div class="date-info mb-4 sm:mb-0  flex justify-between sm:block">
                      <p class="text-blueGray-600 text-base font-bold text-opacity-50">01 Jan 2021</p>
@@ -407,16 +418,10 @@
                      The Digital Speaker. In this series, I send my digital twin into cyberspace, bringing you the
                      latest and greatest in digital innovation.</p>
                </div>
-               <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-3/12 aos-init aos-animate">
-                  <div class="overflow-hidden rounded-md">
-                     <img class="rounded-md transition duration-700 ease-in-out transform hover:scale-105 "
-                        src="assets/images/newsletter-archive/archive-8.jpg" alt="archive-1">
-                  </div>
-
-               </div>
+              
 
             </div>
-            <div class="spin-btn text-center">
+            <div class="spin-btn sm:text-center">
                <a class="  bg-lightBlue-500 text-white text-base font-bold leading-none py-4 px-5 rounded-sm btn"
                   href="#">
 
@@ -436,14 +441,14 @@
       </section>
       <!--  ====================== Newsletter Block Area End =============================  -->
       <!--  ====================== Footer Area Start =============================  -->
-      <footer class="footer-area bg-blueGray-900 py-32">
+      <footer class="footer-area bg-blueGray-900 py-20 lg:py-32">
          <div class="container mx-auto">
 
             <div class="footer-subscribe p-10 bg-lightBlue-500 rounded-lg mb-20">
-               <div class="grid  sm:grid-cols-2 lg:gap-0 gap-20 w-full ">
+               <div class="grid  sm:grid-cols-2 gap-10 lg:gap-20 w-full ">
                   <div>
                      <h2 class="text-4xl font-bold text-white mb-2">Subscribe to Newsletter</h2>
-                     <p class="text-base font-bold text-white">Make bolder choices. Form stronger teams. Build better
+                     <p class="text-base font-bold text-blueGray-300">Make bolder choices. Form stronger teams. Build better
                         products.</p>
                   </div>
 
@@ -458,8 +463,8 @@
                            class="appearance-none block w-full bg-white text-blueGray-500 border  rounded-md py-4 px-4 mb-3 leading-tight  "
                             type="text" placeholder="Email">
                      </div>
-                     <div class="flex-initial lg:w-col-2 w-6/12">
-                        <a class="py-4 px-4 btn rounded-md leading-none bg-amber-500 text-white text-base font-bold"
+                     <div class="lg:flex-initial lg:w-col-2">
+                        <a class="py-4 w-full lg:w-auto text-center  px-4 btn rounded-md leading-none bg-amber-500 text-white text-base font-bold"
                            href="#">Subscribe </a>
                      </div>
 
@@ -469,8 +474,8 @@
                </div>
             </div>
             <div
-               class="grid grid-cols-1 text-center md:text-left md:grid-cols-3 lg:grid-cols-4  gap-8 pb-20  border-b border-primary-300 border-opacity-20">
-               <div class="footer-widget mb-8 lg:mb-0">
+               class="sm:grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 pb-10  border-b border-primary-300 border-opacity-20">
+               <div class="footer-widget">
                   <h5 class="mb-8 text-white font-bold">Articles</h5>
                   <ul>
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
@@ -481,11 +486,11 @@
                            href="Get-in-touch.html">Blockchain (76)</a></li>
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Blog (195)</a></li>
-                     <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
+                     <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Book (6)</a></li>
                   </ul>
                </div>
-               <div class="footer-widget mb-8 lg:mb-0">
+               <div class="footer-widget">
 
                   <ul class="mt-14">
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
@@ -496,11 +501,11 @@
                            href="Get-in-touch.html">Privacy (1)</a></li>
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Robotics (1)</a></li>
-                     <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
+                     <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Security (8)</a></li>
                   </ul>
                </div>
-               <div class="footer-widget mb-8 lg:mb-0">
+               <div class="footer-widget">
 
                   <ul class="mt-14">
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
@@ -511,17 +516,17 @@
                            href="Get-in-touch.html">Trust (1)</a></li>
                      <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Technology (17)</a></li>
-                     <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
+                     <li class="text-blueGray-200"><a class=" text-base font-normal underline-hover"
                            href="Get-in-touch.html">Digitalism (4)</a></li>
                   </ul>
                </div>
-               <div class="footer-widget mb-8 lg:mb-0">
+               <div class="footer-widget mt-14 ">
                   <p class="mb-8 text-white font-bold text-base">Contact</p>
                   <ul>
                      <li class="mb-4 text-blueGray-200 text-base font-normal">Zuid-Hollandlaan 7 2596 AL Den Haag</li>
                      <li class="mb-10 text-blueGray-200 text-base font-normal">E: inquiries@TheDigitalSpeaker.com</li>
                   </ul>
-                     <div class="social-link mb-10">
+                     <div class="social-link mt-14 ">
                         <p class="font-bold text-base text-white mb-4">Follow Me</p>
                         <ul>
                            <li class="inline-block mr-2"><a class="bg-lightBlue-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
@@ -575,7 +580,7 @@
                               
                         </ul>
                      </div>
-                     <div class="social-link ">
+                     <div class="social-link mt-14">
                         <p class="font-bold text-base text-white mb-4">Listen</p>
                         <ul>
                            <li class="inline-block mr-2"><a class="bg-green-500 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
@@ -612,17 +617,18 @@
                      </div>
                </div>
             </div>
-            <div class="footer-copyright text-center md:text-left pt-10 md:flex items-center sm:justify-between">
-               <p class="text-blueGray-200 text-base font-normal mb-10 md:mb-0">© 2021 Dr Mark Van Rijmenam, <a class="text-blue-600" href="">The Digital Speaker.</a> All rights reserved.
-                  
-               </p>
-               <ul class="flex justify-center lg:justify-items-start">
+            <div class="footer-copyright  pt-10 md:flex  sm:justify-between">
+               <ul class="flex mb-10 md:mb-0 order-last">
                   <li class="px-2  font-normal text-base text-blueGray-200"><a href="index.html" class="underline-hover  font-normal">Cookies</a></li>
                   <li class="text-blueGray-200  font-normal text-base">|</li>
                   <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html" class="underline-hover  font-normal">Privacy</a></li>
                   <li class=" text-base px-2 text-blueGray-200   font-normal">|</li>
                   <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html" class="underline-hover  font-normal">Terms</a></li>
                </ul>
+               <p class="text-blueGray-200 text-base font-normal ">© 2021 Dr Mark Van Rijmenam, <a class="text-blue-600" href="">The Digital Speaker.</a> All rights reserved.
+                  
+               </p>
+              
             </div>
 
          </div>
