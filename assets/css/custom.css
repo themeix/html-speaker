@@ -10,8 +10,8 @@ body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 h1,
@@ -150,7 +150,11 @@ body {
 
 .btn:hover svg {
     fill: white;
-    stroke: var(--bs-white);
+    
+}
+.btn:hover path {
+    fill: white;
+    
 }
 
 .arrow-hover svg {
@@ -388,6 +392,17 @@ body {
 }
 .btn-block{
     display: block !important;
+}
+
+.nice-select {
+   
+    border: solid 2px #0C4A6E;
+    height: 47px;
+
+   
+}
+.important-flex{
+    display: flex ;
 }
 
 

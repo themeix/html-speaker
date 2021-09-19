@@ -40,14 +40,9 @@
   anchorPlacement: 'top-center',
 
 });
-
-
-
-
-
- 
-
-
+$(document).ready(function() {
+  $('select').niceSelect();
+});
 
   // When the user scrolls the page, execute myFunction 
   window.onscroll = function () {
