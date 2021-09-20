@@ -27,7 +27,11 @@
   });
 
   
- 
+ /*  Video-popup  */
+$('.video-popup').magnificPopup({
+  type: 'iframe'
+});
+
 
    // Aos Js 
  AOS.init({
