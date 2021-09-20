@@ -31,6 +31,7 @@
 		"jquery-nice-select": "^1.1.0",
 		"jquery.easing": "^1.4.1",
 		"magnific-popup": "^1.1.0",
+		"slick-carousel": "^1.6.37",
 		"tailwindcss": "^2.2.7"
 	},
 	"devDependencies": {

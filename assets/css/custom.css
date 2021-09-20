@@ -409,10 +409,16 @@ body {
 }
 
 .hero-area{
-    height: 1000px;
+    height: 935px;
 }
 
 
+
+
+
+.logo-item img{
+    height: 100px;
+}
 
 
 

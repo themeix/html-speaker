@@ -10,6 +10,8 @@ module.exports = {
         "blueGray-600": "#475569",
         "blueGray-900": "#0F172A",
         "blueGray-300": "#CBD5E1",
+        "blueGray-400": "#F2F2F2",
+        "lightBlue-50": "#f0f9ff",
         "lightBlue-400": "#38BDF8",
         "lightBlue-500": "#0EA5E9",
         "lightBlue-600": "#0284C7",
