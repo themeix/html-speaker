@@ -412,12 +412,21 @@ body {
     height: 935px;
 }
 
+.podcast-icon li a:hover path{
+    fill: #1db954;
+}
 
+.podcast-icon li a{
+    transition: .5s;
+}
 
 
 
 .logo-item img{
     height: 100px;
+}
+.books-box:hover .books-box-hover{
+    opacity: 10;
 }
 
 
