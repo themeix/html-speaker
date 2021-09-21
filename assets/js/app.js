@@ -58,6 +58,30 @@
       }
     ]
   });
+  $('.testimonial-slider').slick({
+    autoplay:false,
+    autoplaySpeed: 2000,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 2,
+    arrows: true,
+    dots: false,
+    prevArrow: $('.slider-prev'),
+    nextArrow: $('.slider-next'),
+    responsive: [{
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
   // Aos Js 
   AOS.init({
     offset: 50,

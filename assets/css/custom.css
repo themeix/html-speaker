@@ -428,6 +428,9 @@ body {
 .books-box:hover .books-box-hover{
     opacity: 10;
 }
+.testimonial-slider .slick-slide{
+    margin: 0 30px;
+}
 
 
 
