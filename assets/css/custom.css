@@ -292,7 +292,7 @@ body {
 
     .mobile-toggle span:nth-child(2) {
         top: 19px;
-       width: 34px;
+      
     }
 
     .mobile-toggle span:nth-child(3) {
@@ -408,12 +408,10 @@ body {
     background-image: url(../images/Articles/cta.jpg);
 }
 
-.hero-area{
-    height: 935px;
-}
 
-.podcast-icon li a:hover path{
-    fill: #1db954;
+
+.podcast-icon-show:hover .podcast-icon-hover{
+    opacity: 100;
 }
 
 .podcast-icon li a{
@@ -431,10 +429,53 @@ body {
 .testimonial-slider .slick-slide{
     margin: 0 30px;
 }
+.testimonial-slider  .slick-list {
+    margin: 0 -30px;
+}
 
 
 
+.testimonial-area .slider-arrows .slider-prev, .slider-arrows .slider-next {
+	width: 33px;
+	height: 30px;
+	text-align: center;
+	padding: 4px 0;
+	left: -55px;
+	border: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
+.testimonial-area .slider-arrows .slider-next {
+	left: auto;
+	right: -55px;
+}
+
+.testimonial-area .slider-arrows button:hover path{
+   stroke: #0EA5E9;
+}
+
+@media (min-width: 991px) { 
+    
+ }
+ @media (min-width: 768px) { 
+    .hero-area {
+        height: 935px !important;
+    }
+    .cta-box{
+        background-image: url(../images/index-1/cta.jpg);
+    }
+ }
+
+
+ @media (min-width: 640px) { 
+   
+ }
+
+ .hero-area {
+    height:492px
+}
 
 
 

@@ -10,9 +10,7 @@
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="images/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!-- gulp:css -->
     <link rel="stylesheet" href="assets/css/app.min.css">
     <!-- endgulp -->
@@ -21,7 +19,7 @@
 <body>
 
     <!--  ====================== Header Area Start =============================  -->
-    <header class="header-area py-2">
+    <header class="header-area py-8 lg:py-2">
         <div class="container mx-auto">
             <div class="flex items-center relative lg:px-3">
                 <button class="mobile-toggle flex items-center lg:hidden" aria-label="Menu Button">
@@ -30,8 +28,8 @@
                     <span></span>
                 </button>
                 <div class="header-logo flex-1">
-                    <a class="pt-2 inline-block text-primary-600 0" href="index.html">
-                        <img src="assets/images/header/header-logo.jpg" alt="">
+                    <a class="pt-2 w-56 md:w-80 inline-block text-primary-600 " href="index.html">
+                        <img  src="assets/images/header/header-logo.jpg" alt="">
 
 
 
@@ -40,15 +38,13 @@
                 <div class="mobile-menu hidden lg:flex flex-wrap items-center shadow-xl lg:shadow-none  ">
                     <ul class="navbar-nav lg:flex items-center text-base">
                         <li><a class="text-blueGray-900 font-medium text-base" href="about.html"> About</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base"
-                                href="services.html">
+                        <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base" href="services.html">
                                 Services <span class="sub-toggle">+</span></a>
                             <ul class="dropdown-menu lg:pt-6 bg-transparent ">
                                 <li><a class="font-medium text-blueGray-900 text-base" href="ebooks.html"> eBooks /
                                         Tools /
                                         Assessment </a></li>
-                                <li><a class="font-medium text-blueGray-900 text-base"
-                                        href="newsletter-archive.html">Newsletter
+                                <li><a class="font-medium text-blueGray-900 text-base" href="newsletter-archive.html">Newsletter
                                         Archive</a></li>
                             </ul>
                         </li>
@@ -62,8 +58,8 @@
                         <li><a class="font-medium text-blueGray-900 text-base" href="insights.html"> Insights </a></li>
                         <li><a class="font-medium text-blueGray-900 text-base" href="contact.html"> Get In Touch </a>
                         </li>
-                        <li class="hidden lg:block"><a class="font-medium text-blueGray-900 text-base inline-block"
-                                href="#" onclick="toggleModal()">
+                        <li class="hidden lg:block">
+                            <a class="font-medium text-blueGray-900 text-base inline-block" href="#" onclick="toggleModal()">
                                 <span><svg class="inline-block h-5 w-5" width="22" height="22" viewBox="0 0 22 22"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -71,7 +67,8 @@
                                             stroke="#0F172A" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg></span>
-                            </a></li>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
@@ -88,11 +85,8 @@
                             <div class="modal-body">
                                 <div class="headermodal-form py-8 mb-8 border-b flex justify-between items-center">
                                     <form class="flex items-center flex-auto mr-8" action="#">
-                                        <div class="mr-8"><img class="h-10 w-10 "
-                                                src="assets/images/header/search-icon.svg" alt="search-icon"></div>
-                                        <input
-                                            class=" appearance-none rounded w-full py-2 px-3 text-black leading-tight h-20 text-4xl font-medium border-0 "
-                                            type="text" placeholder="Username">
+                                        <div class="mr-8"><img class="h-10 w-10 " src="assets/images/header/search-icon.svg" alt="search-icon"></div>
+                                        <input class=" appearance-none rounded w-full py-2 px-3 text-black leading-tight h-20 text-4xl font-medium border-0 " type="text" placeholder="Username">
                                     </form>
                                     <div class="search-close cursor-pointer" onclick="toggleModal()">
                                         <img class="h-10 w-10" src="assets/images/header/cancel.svg" alt="title">
@@ -101,22 +95,17 @@
                                 </div>
                                 <h4 class="mb-6 text-2xl font-bold">May we suggest</h4>
                                 <div class="search-suggestions mb-8">
-                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3 mr-2"
-                                        href="podcast.html">Technology</a>
-                                    <a class="btn bg-lightBlue-100  leading-none rounded-sm p-3 mr-2"
-                                        href="podcast.html">Episode
+                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3 mr-2" href="podcast.html">Technology</a>
+                                    <a class="btn bg-lightBlue-100  leading-none rounded-sm p-3 mr-2" href="podcast.html">Episode
                                         10</a>
-                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3 mr-2"
-                                        href="podcast.html">Conversation</a>
-                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3"
-                                        href="podcast.html">Audio</a>
+                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3 mr-2" href="podcast.html">Conversation</a>
+                                    <a class="btn bg-lightBlue-100 leading-none rounded-sm p-3" href="podcast.html">Audio</a>
                                 </div>
                                 <h4 class="mb-6 font-bold text-2xl">Picked for you</h4>
                                 <div class="grid grid-cols-2  lg:grid-cols-3  gap-8">
 
                                     <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/1.jpg"
-                                            alt="header-1">
+                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/1.jpg" alt="header-1">
                                         <div class="search-block-content">
                                             <div class="search-block-meta">
                                                 <span>Episode </span>
@@ -128,8 +117,7 @@
 
 
                                     <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/2.jpg"
-                                            alt="header-2">
+                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/2.jpg" alt="header-2">
                                         <div class="search-block-content">
                                             <div class="search-block-meta">
                                                 <span>Episode </span>
@@ -141,8 +129,7 @@
 
 
                                     <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/3.jpg"
-                                            alt="header-3">
+                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/3.jpg" alt="header-3">
                                         <div class="search-block-content">
                                             <div class="search-block-meta">
                                                 <span>Episode </span>
@@ -164,20 +151,15 @@
     <div class="main">
         <!--  ====================== Header Area End =============================  -->
         <!--  ====================== Hero Area Start =============================  -->
-        <section class="hero-area bg-cover   flex bg-bottom items-center"
-            style="background-image: url(assets/images/index-1/hero.jpg);">
+        <section class="hero-area bg-cover  h-24 flex bg-bottom items-center" style="background-image: url(assets/images/index-1/hero.jpg);">
             <div class="container mx-auto">
                 <div class="hero-content pb-10">
                     <div class="lg:w-3/5">
-                        <h1 class="text-6xl font-bold text-white mb-10">Dr Mark van Rijmenam
-                            The Digital Speaker
+                        <h1 class="text-4xl md:text-6xl font-bold text-white mb-10">Dr Mark van Rijmenam The Digital Speaker
                         </h1>
-                        <p class="font-normal text-white lg:w-4/5 mb-10">An international keynote speaker on the future
-                            of work and the organisation of tomorrow. Dr Van Rijmenam is a future tech strategist who
-                            thinks about how emerging technologies change your organisation, our society, and the
-                            metaverse.</p>
-                        <a class="font-bold text-base text-white bg-lightBlue-500 py-3 px-6  btn rounded-sm"
-                            href="about.html">Learn More</a>
+                        <p class="font-normal text-white lg:w-4/5 mb-10 hidden md:block">An international keynote speaker on the future of work and the organisation of tomorrow. Dr Van Rijmenam is a future tech strategist who thinks about how emerging technologies change your organisation, our society, and the metaverse.
+                        </p>
+                        <a class="font-bold text-base text-white bg-lightBlue-500 py-3 px-6  btn rounded-sm" href="about.html">Learn More</a>
 
                     </div>
 
@@ -187,18 +169,16 @@
         </section>
         <!--  ====================== Hero Area End =============================  -->
         <!--  ====================== Hero posts Area Start =============================  -->
-        <section class="hero-posts-area pb-20 -mt-44">
+        <div class="hero-posts-area pb-20 lg:-mt-44 md:-mt-32">
             <div class="container mx-auto">
-                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-10 bg-white rounded-md">
+                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-10 md:mt-0 md:p-10 bg-white rounded-md">
                     <div class="hero-posts-box">
                         <div class="hero-image rouned-md">
-                            <a href="single.html"><img class="rounded-md" src="assets/images/index-1/hero-posts-1.jpg"
-                                    alt="hero-posts-1"></a>
+                            <a href="single.html"><img class="rounded-md" src="assets/images/index-1/hero-posts-1.jpg" alt="hero-posts-1"></a>
                         </div>
                         <div class="hero-posts-content py-4">
                             <div class="inline-block">
-                                <p
-                                    class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
+                                <p class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
                                     <span class="inline-block mr-2"><svg width="15" height="16" viewBox="0 0 15 16"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -207,8 +187,7 @@
                                         </svg>
                                     </span> Latest</p>
                             </div>
-                            <p class="font-bold text-lg text-blueGray-900"><a class="underline-hover"
-                                    href="single.html">Bioinformatics and
+                            <p class="font-bold text-lg text-blueGray-900"><a class="underline-hover" href="single.html">Bioinformatics and
                                     Brain-Computer Interfaces - The Digital
                                     Speaker Series EP14</a></p>
                         </div>
@@ -216,12 +195,9 @@
                     </div>
                     <div class="hero-posts-box">
                         <div class="hero-image rouned-md relative">
-                            <a class="video-popup" href="https://player.vimeo.com/video/499575924?h=ce8ba09430"><img
-                                    class="rounded-md" src="assets/images/index-1/hero-posts-2.jpg"
-                                    alt="hero-posts-1"></a>
+                            <a class="video-popup" href="https://player.vimeo.com/video/499575924?h=ce8ba09430"><img class="rounded-md" src="assets/images/index-1/hero-posts-2.jpg" alt="hero-posts-1"></a>
                             <div class="popup-icon  ">
-                                <a class="video-popup absolute top-0 w-full h-full flex items-center justify-center"
-                                    href="https://player.vimeo.com/video/499575924?h=ce8ba09430">
+                                <a class="video-popup absolute top-0 w-full h-full flex items-center justify-center" href="https://player.vimeo.com/video/499575924?h=ce8ba09430">
                                     <span class="bg-white flex w-16 h-16 justify-center items-center rounded-full"><svg
                                             width="22" height="24" viewBox="0 0 22 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -235,8 +211,7 @@
 
                         <div class="hero-posts-content py-4">
                             <div class="inline-block">
-                                <p
-                                    class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
+                                <p class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
                                     <span class="inline-block mr-2"><svg width="26" height="16" viewBox="0 0 26 16"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -246,22 +221,19 @@
 
                                     </span> Video</p>
                             </div>
-                            <p class="font-bold text-lg text-blueGray-900"><a class="video-popup underline-hover"
-                                    href="https://player.vimeo.com/video/499575924?h=ce8ba09430">The Digital Speaker
+                            <p class="font-bold text-lg text-blueGray-900"><a class="video-popup underline-hover" href="https://player.vimeo.com/video/499575924?h=ce8ba09430">The Digital Speaker
                                     - Dr Mark van Rijmenam</a></p>
                         </div>
 
                     </div>
                     <div class="hero-posts-box">
                         <div class="hero-image rouned-md">
-                            <a href="single.html"> <img class="rounded-md" src="assets/images/index-1/hero-posts-3.jpg"
-                                    alt="hero-posts-1"></a>
+                            <a href="single.html"> <img class="rounded-md" src="assets/images/index-1/hero-posts-3.jpg" alt="hero-posts-1"></a>
                         </div>
 
                         <div class="hero-posts-content py-4">
                             <div class="inline-block">
-                                <p
-                                    class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
+                                <p class="bg-lightBlue-400  mb-4 items-center btn text-white h-7 px-2 text-xs important-flex font-medium rounded-sm  justify-center ladding-none">
                                     <span class="inline-block mr-2"><svg width="18" height="16" viewBox="0 0 18 16"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -271,8 +243,7 @@
 
                                     </span>Featured</p>
                             </div>
-                            <p class="font-bold text-lg text-blueGray-900"><a class="underline-hover"
-                                    href="single.html">An Analogue
+                            <p class="font-bold text-lg text-blueGray-900"><a class="underline-hover" href="single.html">An Analogue
                                     Renaissance, Digital Real Estate and Bioinformatics - The Digital Speaker series
                                     EP013d</a></p>
                         </div>
@@ -281,37 +252,30 @@
 
                 </div>
             </div>
-        </section>
+        </div>
 
         <!--  ====================== Hero posts Area End =============================  -->
         <!--  ====================== About Area Start =============================  -->
         <section class="about-area pb-20">
             <div class="container mx-auto">
-                <div class="md:flex gap-10 items-center">
-                    <div class="md:w-5/12">
+                <div class=" grid gap-8 md:grid-cols-2 lg:flex lg:gap-10 items-center">
+                    <div class=" lg:w-5/12">
 
                         <div class="about-content">
                             <h3 class="text-3xl text-lightBlue-900 font-bold mb-4 ">Dr Mark van Rijmemam</h3>
-                            <p class="text-base text-blueGray-600 mb-8">A (virtual) speaker and best-selling author on
-                                the future
-                                of work. The Digital Speaker has deep expertise on how AI, big data, blockchain, the
-                                Internet of Things and other digital technologies disrupt your business. He can inspire
-                                you,
-                                your employees and your audience to embed smartness in your organisation and remain
-                                competitive in years to come.</p>
-                            <a class="p-3 bg-lightBlue-500 btn text-white font-bold text-base rounded-sm"
-                                href="about.html">More About Me</a>
+                            <p class="text-base text-blueGray-600 mb-8">A (virtual) speaker and best-selling author on the future of work. The Digital Speaker has deep expertise on how AI, big data, blockchain, the Internet of Things and other digital technologies disrupt your business. He can
+                                inspire you, your employees and your audience to embed smartness in your organisation and remain competitive in years to come.</p>
+                            <a class="p-3 bg-lightBlue-500 btn text-white font-bold text-base rounded-sm" href="about.html">More About Me</a>
                         </div>
                     </div>
-                    <div class="md:w-3/12">
+                    <div class="lg:w-3/12">
                         <div class="about-images rounded-md">
-                            <img class="w-full lg:w-auto rounded-md" src="assets/images/index-1/about.jpg"
-                                alt="about-images">
+                            <img class="w-full lg:w-auto rounded-md" src="assets/images/index-1/about.jpg" alt="about-images">
                         </div>
                     </div>
-                    <div class="md:w-4/12">
+                    <div class=" md:col-span-2 lg:w-4/12 text-center lg:text-left">
                         <h3 class="text-3xl text-lightBlue-900 font-bold mb-10">Join my free Webinar</h3>
-                        <div class="mb-10 text-center" id="countdown-day">
+                        <div class="mb-10 text-center lg:text-left" id="countdown-day">
                             <ul>
                                 <li class="inline-block mr-4 p-3 bg-blueGray-200 text-center rounded-md leding-none">
                                     <h5 class="font-bold text-2xl" id="days"></h5>DAY
@@ -329,9 +293,8 @@
 
 
                         </div>
-                        <div class="text-center">
-                            <a class="bg-amber-500 p-3 btn text-white font-bold text-base rounded-sm"
-                                href="register.html">Register now</a>
+                        <div class="lg:text-center">
+                            <a class="bg-amber-500 p-3 btn text-white font-bold text-base rounded-sm" href="register.html">Register now</a>
                         </div>
 
                     </div>
@@ -339,10 +302,631 @@
         <!--  ====================== About Area End =============================  -->
         <!--  ====================== Logo Slider Area Start =============================  -->
         <section class="logo-slider-area">
-            <div class="container mx-auto">
-                <div class="section-title text-center mb-10">
-                    <h5 class="text-2xl font-bold">Experienced by <span class="text-lightBlue-500">industry
+            <div class="px-8 md:px-24 w-full mr-auto ml-auto ">
+                <div class="section-title lg:text-center mb-10">
+                    <h5 class="text-lg md:text-2xl font-normal md:font-bold">Experienced by <span class="text-lightBlue-500">industry
                             leading</span> companies and organisations</h5>
+                </div>
+            </div>
+            <div class="px-8 md:px-24 w-full mr-auto ml-auto">
+
+                <div class="logo-slider">
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-2.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-3.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-4.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-5.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-6.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-7.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-8.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-9.svg" alt="slider-1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/index-1/slider-5.svg" alt="slider-1">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  ====================== Logo Slider Area End =============================  -->
+        <!--  ====================== Podcast Area Start =============================  -->
+        <section class="podcast-area mt-20 md:mt-32 relative">
+            <div class="px-8 md:px-24 w-full mr-auto ml-auto ">
+                <div class="grid lg:grid-cols-2 lg:gap-20 items-center">
+
+                    <div class="podcast-left">
+                        <h2 class="text-4xl font-bold text-lightBlue-900 mb-4">Listen to the latest podcast</h2>
+                        <p class="text-lg text-blueGray-600 mb-10">Over the past 30-years, our lives have been increasingly digitalised as we live through the third industrial revolution. From the moment we wake up to the moment we close our eyes, the digital world surrounds us.</p>
+
+                        <iframe src="https://anchor.fm/the-digital-speaker/embed/episodes/Augmenting-your-career-with-AI---Interview-with-David-Shrier--EP15-e1753v3" height="210px" width="100%" frameborder="0" scrolling="no"></iframe>
+                    </div>
+
+
+                    <div>
+                        <div class="lg:bg-blueGray-400 lg:w-6/12 right-0 h-full lg:absolute top-0"></div>
+                        <div class="podcast-right lg:text-center z-0 relative p-8 md:p-10 lg:p-24">
+                            <h3 class="text-3xl font-bold mb-4">Podcasts are also available in...</h3>
+                            <p class="text-lg mb-20">The Digital Speaker is here to tell you about the ins and outs of emerging digital technologies and how this will affect your business and society, from inside the digital world.</p>
+                            <div class="podcast-icon grid grid-cols-2 md:grid-cols-4  gap-8">
+                                <div class="relative podcast-icon-show">
+                                    <a href="https://www.breaker.audio/the-digital-speaker" target="_blank"><img src="assets/images/index-1/breaker.svg" alt="images"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://www.breaker.audio/the-digital-speaker" target="_blank"><img src="assets/images/index-1/breaker-hover.jpg" alt="images"></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="relative podcast-icon-show">
+                                    <a class="w-full h-full" href="https://open.spotify.com/show/4y0e77EQRZijXzRSWLpY4O" target="_blank">
+                                        <img src="assets/images/index-1/spotify.png" alt="images"></a>
+                                        <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                            <a href="https://open.spotify.com/show/4y0e77EQRZijXzRSWLpY4O" target="_blank"><img src="assets/images/index-1/spotify-hover.png" alt="images"></a>
+                                        </div>
+                                </div>
+                                <div class="relative podcast-icon-show">
+                                    <a href="" target="_blank"><img src="assets/images/index-1/apple.svg" alt="images">
+                                        <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                            <a href="assets/images/index-1/apple.svg" target="_blank"><img src="assets/images/index-1/apple-hover.jpg" alt="images"></a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div  class="relative podcast-icon-show">
+                                    <a href="https://radiopublic.com/the-digital-speaker-GAK0MN" target="_blank"><img src="assets/images/index-1/radiopublic.svg" alt="images"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://radiopublic.com/the-digital-speaker-GAK0MN" target="_blank"><img src="assets/images/index-1/radiopublic-hover.jpg" alt="images"></a>
+                                    </div>
+                                </div>
+                                <div class="relative podcast-icon-show">
+                                    <a href="https://pca.st/uq8ly7oh" target="_blank"><img src="assets/images/index-1/pocketcast.svg" alt="images"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://pca.st/uq8ly7oh" target="_blank"><img src="assets/images/index-1/pocketcast-hover.png" alt="images"></a>
+                                    </div>
+                                </div>
+                                <div class="relative podcast-icon-show">
+                                    <a href="https://soundcloud.com/the-digital-speaker" target="_blank"><img src="assets/images/index-1/soundcloud.svg" alt="images"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://soundcloud.com/the-digital-speaker" target="_blank"><img src="assets/images/index-1/soundcloud-hover.jpg" alt="images"></a>
+                                    </div>
+                                </div>
+                                <div class="relative podcast-icon-show">
+                                    <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80Nzk1YmIxYy9wb2RjYXN0L3Jzcw==" target="_blank"><img src="assets/images/index-1/google-podcast.svg" alt="images"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80Nzk1YmIxYy9wb2RjYXN0L3Jzcw==" target="_blank"><img src="assets/images/index-1/google-podcast-hover.jpg" alt="images"></a>
+                                    </div>
+                                </div>
+                                <div class="relative podcast-icon-show">
+                                    <a href="https://anchor.fm/the-digital-speaker" target="_blank"><img src="assets/images/index-1/anchor-fm.svg" alt="image"></a>
+                                    <div class="podcast-icon-hover absolute top-0 opacity-0 transition duration-500">
+                                        <a href="https://anchor.fm/the-digital-speaker" target="_blank"><img src="assets/images/index-1/anchor-hover.png" alt="images"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--  ====================== Podcast Area End =============================  -->
+        <!--  ====================== Books Area Start =============================  -->
+        <section class="books-area py-20 md:py-32 bg-lightBlue-100">
+            <div class="container mx-auto">
+                <div class="section-title text-center pb-16">
+                    <h2 class="font-bold text-4xl">My Books</h2>
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mb-32">
+
+                    <div class="books-box  p-10 bg-white rounded-md h-full flex flex-col justify-between relative">
+                        <div class="top">
+                            <div class="books-images-icon mb-6">
+                                <img src="assets/images/index-1/books-1.jpg" alt="books-3">
+                            </div>
+                            <div class="inline-block mb-6">
+                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2015
+                                </p>
+                            </div>
+                            <p class="text-2xl font-bold text-blueGray-900 pb-6">The Organisation of Tomorrow </p>
+                            <p class="text-blueGray-600 text-lg font-normal">The Organisation of Tomorrow presents a new model of doing
+                            </p>
+
+                        </div>
+                        <div class="paper-bottom-part pt-6">
+                            <hr>
+                            <div class="mt-4 flex items-center">
+                                <div class="paper-icon inline-block">
+                                    <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                fill="#0F172A" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <p class="text-xs">David G. Roberts</p>
+                            </div>
+                        </div>
+
+
+                        <div class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
+                            <p class="text-blueGray-600 text-lg mb-6">This book offers governments, professional services, manufacturing, finance, retail and other industries a clear approach for how to develop products and services that are ready for the 21st century. It is a must-read for every
+                                organisation that wants to remain competitive in our fast-changing world.</p>
+                            <a class="text-lightBlue-500 text-base font-bold underline-hover" href="books-tomorrow.html">Read More</a>
+                            <div class="amazon-button my-6 ">
+                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white" href="https://www.amazon.com/"><img src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="books-box relative p-10 bg-white rounded-md h-full flex flex-col justify-between">
+                        <div class="top">
+                            <div class="books-images-icon mb-6">
+                                <img src="assets/images/index-1/books-2.jpg" alt="books-3">
+                            </div>
+                            <div class="inline-block mb-6">
+                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2018
+                                </p>
+                            </div>
+                            <p class="text-2xl font-bold text-blueGray-900 pb-6">Blockchain </p>
+                            <p class="text-blueGray-600 text-lg font-normal">Transforming your business and our world
+                            </p>
+
+                        </div>
+                        <div class="paper-bottom-part pt-6">
+                            <hr>
+                            <div class="mt-4 flex items-center">
+                                <div class="paper-icon inline-block">
+                                    <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                fill="#0F172A" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <p class="text-xs">Mark Van Rijmenam, Philippa Ryan</p>
+                            </div>
+                        </div>
+                        <div class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
+                            <p class="text-blueGray-600 text-lg mb-6">The internet was envisaged as a decentralised global network, but in the past 25 years, it has come to be controlled by a few, very powerful, centralised companies. Blockchain is a technological paradigm shift that allows secure,
+                                reliable, and direct information transfer between individuals, organisations, and things, so that we can manage, verify, and control the use of our own data.
+                            </p>
+                            <a class="text-lightBlue-500 text-base font-bold underline-hover" href="books-blockchain.html">Read More</a>
+                            <div class="amazon-button my-6 ">
+                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white" href="https://www.amazon.com/"><img src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="books-box relative p-10 bg-white rounded-md h-full flex flex-col justify-between">
+                        <div class="top">
+                            <div class="books-images-icon mb-6">
+                                <img src="assets/images/index-1/books-3.jpg" alt="books-3">
+                            </div>
+                            <div class="inline-block mb-6">
+                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2014
+                                </p>
+                            </div>
+                            <p class="text-2xl font-bold text-blueGray-900 pb-6">Think Bigger </p>
+                            <p class="text-blueGray-600 text-lg font-normal">developing a succesful big data strategy for your business
+                            </p>
+
+                        </div>
+                        <div class="paper-bottom-part pt-6">
+                            <hr>
+                            <div class="mt-4 flex items-center">
+                                <div class="paper-icon inline-block">
+                                    <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                fill="#0F172A" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <p class="text-xs">Mark Van Rijmenam</p>
+                            </div>
+                        </div>
+                        <div class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
+                            <p class="text-blueGray-600 text-lg mb-6">From purchasing transactions, to chatter from social networks, to web server logs, to satellite imagery, to traffic flow sensors, it’s estimated that we now create–every two days –as much information as we did from the dawn
+                                of civilization up until 2003. What’s more, it’s expected that the amount of data currently available will double every two years world­wide as virtually everything becomes digitized.</p>
+                            <a class="text-lightBlue-500 text-base font-bold underline-hover" href="books-bigger.html">Read More</a>
+                            <div class="amazon-button my-6 ">
+                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white" href="https://www.amazon.com/"><img src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="academic-paper">
+                    <div class="section-title text-center pb-16">
+                        <h2 class="font-bold text-4xl">My Academic Paper</h2>
+                    </div>
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
+                            <div class="top">
+                                <div class="academic-img mb-6">
+                                    <img src="assets/images/index-1/academic-1.jpg" alt="academic-1">
+                                </div>
+                                <div class="paper-top-part">
+                                    <div class="inline-block mb-6">
+                                        <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
+                                            2021</p>
+                                    </div>
+                                    <p class="text-2xl font-bold text-blueGray-900  leading-7">Revising the ‘science of the organisation’: theorising AI agency and actorhood</p>
+                                </div>
+
+                            </div>
+                            <div class="paper-bottom-part">
+                                <hr class="pt-6 mt-6">
+                                <div class="paper-publisher flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
+                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs"> Innovation, 23(1), pp.127-144</p>
+
+                                </div>
+                                <div class="paper-publisher mt-4 flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                    fill="#0F172A" />
+                                            </svg>
+
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs">Van Rijmenam, M. and Logue, D.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
+                            <div class="top">
+                                <div class="academic-img mb-6">
+                                    <img src="assets/images/index-1/academic-2.jpg" alt="academic-1">
+                                </div>
+                                <div class="paper-top-part">
+                                    <div class="inline-block mb-6">
+                                        <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
+                                            2019</p>
+                                    </div>
+                                    <p class="text-2xl font-bold text-blueGray-900  leading-7">Avoid being the turkey: how big data analytics changes the game of strategy in times of ambiguity and uncertainty
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="paper-bottom-part">
+                                <hr class="pt-6 mt-6">
+                                <div class="paper-publisher flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
+                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs"> Long range planning, 52(5), p.101841</p>
+
+                                </div>
+                                <div class="paper-publisher mt-4 flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                    fill="#0F172A" />
+                                            </svg>
+
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs">Van Rijmenam, M., Erekhinskaya, T., Schweitzer, J. and Williams, M.A.,
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
+                            <div class="top">
+                                <div class="academic-img mb-6">
+                                    <img class="rounded-md" src="assets/images/index-1/academic-3.jpg" alt="academic-1">
+                                </div>
+                                <div class="paper-top-part">
+                                    <div class="inline-block mb-6">
+                                        <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
+                                            2019</p>
+                                    </div>
+                                    <p class="text-2xl font-bold text-blueGray-900  leading-7">The politics of openness. Cambridge Handbook of Open Strategy</p>
+                                </div>
+
+                            </div>
+                            <div class="paper-bottom-part">
+                                <hr class="pt-6 mt-6">
+                                <div class="paper-publisher flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
+                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs"> Cambridge University Press, pp 307-325</p>
+
+                                </div>
+                                <div class="paper-publisher mt-4 flex">
+                                    <div class="paper-icon inline-block">
+                                        <p class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
+                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
+                                                    fill="#0F172A" />
+                                            </svg>
+
+
+                                        </p>
+                                    </div>
+                                    <p class="text-xs">Clegg, S., Van Rijmenam, M. and Schweitzer, J.,</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--  ====================== Books Area End =============================  -->
+        <!--  ====================== Tedx Area Start =============================  -->
+        <section class="tedx-area pt-20 md:pt-32">
+            <div class="container mx-auto">
+                <div class="grid md:grid-cols-2 gap-20 items-center">
+                    <div class="tedx-images relative">
+
+                        <a class="video-popup" href="https://player.vimeo.com/video/499575924?h=ce8ba09430"> <img class="rounded-md" src="assets/images/index-1/tedx.jpg" alt="tedx"></a>
+                        <div class="popup-icon  ">
+                            <a class="video-popup absolute top-0 w-full h-full flex items-center justify-center" href="https://player.vimeo.com/video/499575924?h=ce8ba09430">
+                                <span class="bg-white flex w-16 h-16 justify-center items-center rounded-full"><svg
+                                        width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.5871 13.8577L3.62152 23.7016C2.18172 24.5362 0.333984 23.5256 0.333984 21.8432V2.15529C0.333984 0.475528 2.17906 -0.537664 3.62152 0.299552L20.5871 10.1435C20.9147 10.3305 21.1869 10.6007 21.3763 10.9269C21.5656 11.253 21.6654 11.6234 21.6654 12.0006C21.6654 12.3777 21.5656 12.7481 21.3763 13.0743C21.1869 13.4004 20.9147 13.6707 20.5871 13.8577Z"
+                                            fill="#0EA5E9"></path>
+                                    </svg>
+                                </span></a>
+                        </div>
+                    </div>
+                    <div class="tedx-content">
+                        <h5 class="font-bold text-blueGray-900 text-2xl mb-8">Mark delivered the world’s first TEDx Talk in virtual reality.</h5>
+                        <p class="text-blueGray-600 text-lg mb-4">As part of the Global Countdown event on 10-10-2020, Dr Van Rijmenam delivered the world’s first TEDx talk in virtual reality.</p>
+                        <p class="text-blueGray-600 text-lg mb-4">Discussing the Rise of Digitalism from the virtual world, Dr Van Rijmenam shared his insights on how Digitalism will become the first truly global political doctrine.
+                        </p>
+                        <h6 class="font-bold text-lg text-blueGray-900">Find out what the impact of Digitalism will be on your organisation by booking Dr Mark van Rijmenam today.</h6>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!--  ====================== Tedx Area End =============================  -->
+        <!--  ======================  Digital Speaker Area Start =============================  -->
+        <section class="speaker-area pt-32">
+            <div class="container mx-auto">
+                <div class="section-title mb-20 lg:w-7/12">
+                    <h2 class="font-bold text-3xl md:text-4xl">What formats does The Digital Speaker offer?</h2>
+                </div>
+                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
+                    <div class="avatar-concept md:flex items-center">
+                        <div class="avatar-concept-img  mr-8">
+                            <img class="w-full md:w-auto mb-8 md:mb-0 rounded-md" src="assets/images/index-1/speaker-1.jpg" alt="speaker">
+                        </div>
+                        <div class="avatar-concept-content">
+                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">In-person keynotes</h5>
+                            <p class="mb-4 text-blueGray-900 text-base font-normal">Have the real Mark on stage, where he can even have a live conversation with his digital twin as a hologram.</p>
+                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
+                    <div class="avatar-concept md:flex items-center">
+                        <div class="avatar-concept-img  mr-8">
+                            <img class="w-full md:w-auto mb-8 md:mb-0 rounded-md" src="assets/images/index-1/speaker-2.jpg" alt="speaker">
+                        </div>
+                        <div class="avatar-concept-content">
+                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">Virtual keynotes</h5>
+                            <p class="mb-4 text-blueGray-900 text-base font-normal">Book The Digital Speaker for a more traditional webinar or live, professionally recorded virtual keynote.</p>
+                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
+                    <div class="avatar-concept md:flex items-center">
+                        <div class="avatar-concept-img  mr-8">
+                            <img class="w-full md:w-auto mb-8 md:mb-0 rounded-md" src="assets/images/index-1/speaker-3.jpg" alt="speaker">
+                        </div>
+                        <div class="avatar-concept-content">
+                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">Avatar or hologram keynotes</h5>
+                            <p class="mb-4 text-blueGray-900 text-base font-normal">Opt for a magical experience and have Mark’s avatar or hologram deliver a truly unique experience anywhere in any language.
+                            </p>
+                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  ======================  Digital Speaker Area End =============================  -->
+        <!--  ======================  Cta Area Start =============================  -->
+        <section class="cta-area py-20 md:py-32">
+            <div class="container mx-auto relative">
+                <div class="cta-box bg-cover  rounded-md md:h-60 md:flex p-6 bg-lightBlue-900 items-center bg-no-repeat  md:px-24">
+
+                    <div class="cta-contant">
+                        <h3 class="text-white text-3xl font-bold mb-4">The Digital Speaker</h3>
+                        <p class="text-base  text-white  font-medium ">The Digital Speaker offers various, magical and futuristic experiences to truly inspire your audience</p>
+                        <div class="cta-button mt-5">
+                            <a class="bg-amber-500 text-white font-bold text-base py-4 px-6 rounded-md btn" href="books.html">Book a Digital Keynote</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="cta-man hidden lg:block absolute -top-20 right-16">
+                    <img src="assets/images/index-1/cta-man.png" alt="cta-man">
+                </div>
+
+            </div>
+        </section>
+        <!--  ======================  Cta Area End =============================  -->
+        <!--  ======================  Testimonial Area Start =============================  -->
+        <section class="testimonial-area">
+            <div class="container mx-auto">
+                <div class="relative">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-item">
+                            <div class="flex">
+                                <div class="blockquote-icon mr-4">
+                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
+                                            fill="black" fill-opacity="0.2" />
+                                    </svg>
+
+                                </div>
+                                <div class="testimonial-content">
+                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">World-class inspirational
+                                    </h6>
+                                    <p>His presentation and insight in the discussion after was world-class inspirational”
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial-author mt-10">
+                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover" href="">Peter Barkman </a></h6>
+                                <p class="text-xs text-blueGray-600 font-normal">CMO – Solita
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="testimonial-item">
+                            <div class="flex">
+                                <div class="blockquote-icon mr-4">
+                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
+                                            fill="black" fill-opacity="0.2" />
+                                    </svg>
+
+                                </div>
+                                <div class="testimonial-content">
+                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">Dr Mark van Rijmenam is simply a rock star!
+
+                                    </h6>
+                                    <p>His ability to deliver a well-prepared message in a funny, interesting way and engage everyone in the room is unparalleled in his industry.” Sam Movsisyan Founder at Leadership School
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial-author mt-10">
+                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover" href="">Sam
+                                        Movsisyan</a> </h6>
+                                <p class="text-xs text-blueGray-600 font-normal">Founder at Leadership School
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="flex">
+                                <div class="blockquote-icon mr-4">
+                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
+                                            fill="black" fill-opacity="0.2" />
+                                    </svg>
+
+                                </div>
+                                <div class="testimonial-content">
+                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">World-class inspirational
+                                    </h6>
+                                    <p>His presentation and insight in the discussion after was world-class inspirational”
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial-author mt-10">
+                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover" href="">Peter Barkman</a> </h6>
+                                <p class="text-xs text-blueGray-600 font-normal">CMO – Solita
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="slider-arrows hidden lg:block">
+                        <button class="slider-prev transition duration-500"><span><svg width="36" height="32"
+                                    viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.875 1L1 16M1 16L15.875 31M1 16H35" stroke="#475569" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span></button>
+                        <button class="slider-next transition duration-500"><span><svg width="36" height="32"
+                                    viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.125 1L35 16M35 16L20.125 31M35 16H1" stroke="#475569" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--  ======================  Testimonial Area End =============================  -->
+        <!--  ====================== Logo Slider Area Start =============================  -->
+        <section class="logo-slider-area py-20 md:py-32">
+            <div class="md:px-24 px-8 w-full mr-auto ml-auto">
+                <div class="section-title lg:text-center mb-24 lg:w-8/12 m-auto">
+                    <h5 class="text-2xl font-bold mb-2">My Clients</h5>
+                    <p class="text-base text-blueGray-600 font-normal">Dr Van Rijmenam has spoken in 20 countries across the globe and collectively inspired over 100.000 managers, directors and C-level executives at leading organisations.</p>
                 </div>
             </div>
             <div class="px-24 w-full mr-auto ml-auto">
@@ -380,702 +964,82 @@
             </div>
         </section>
         <!--  ====================== Logo Slider Area End =============================  -->
-        <!--  ====================== Podcast Area Start =============================  -->
-        <section class="podcast-area mt-32 relative">
-            <div class="px-24 w-full mr-auto ml-auto ">
-                <div class="grid grid-cols-2 gap-20 items-center">
-
-                    <div class="podcast-left">
-                        <h2 class="text-4xl font-bold text-lightBlue-900 mb-4">Listen to the latest podcast</h2>
-                        <p class="text-lg text-blueGray-600 mb-10">Over the past 30-years, our lives have been
-                            increasingly digitalised as we live through the third industrial revolution. From the
-                            moment we wake up to the moment we close our eyes, the digital world surrounds us.</p>
-
-                        <iframe
-                            src="https://anchor.fm/the-digital-speaker/embed/episodes/Augmenting-your-career-with-AI---Interview-with-David-Shrier--EP15-e1753v3"
-                            height="210px" width="100%" frameborder="0" scrolling="no"></iframe>
-                    </div>
-
-
-                    <div>
-                        <div class="bg-blueGray-400 w-6/12 right-0 h-full absolute top-0"></div>
-                        <div class="podcast-right text-center z-0 relative p-10 lg:p-24">
-                            <h3 class="text-3xl font-bold mb-4">Podcasts are also available in...</h3>
-                            <p class="text-lg mb-20">The Digital Speaker is here to tell you about the ins and outs of
-                                emerging digital technologies and how this will affect your business and society, from
-                                inside the digital world.</p>
-                            <ul class="podcast-icon">
-                                <li class="inline-block mr-8 mb-8"><a
-                                        href="https://www.breaker.audio/the-digital-speaker" target="_blank"><svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                            width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M13.556 12.924c.21 0 .386.017.585.056a3.015 3.015 0 0 1 2.246 1.956c.101.319.234.797.319 1.125l.111.433l.446-.009c3.552-.075 6.456-2.965 6.456-6.546C23.72 4.513 19.195 0 12.281 0a12.186 12.186 0 0 0-7.603 2.715a11.98 11.98 0 0 0-4.397 9.286c.002.96.118 1.926.334 2.818a12.02 12.02 0 0 0 5.759 7.628A12.207 12.207 0 0 0 12.283 24a11.995 11.995 0 0 0 9.319-4.438l.124-.152l-.24-.868l-.463.122a17.157 17.157 0 0 1-4.463.576c-1.243 0-2.428-.128-3.598-.375a3.006 3.006 0 0 1-2.248-1.98a2.748 2.748 0 0 1-.156-.958c-.011-.782.257-1.425.741-1.975a2.983 2.983 0 0 1 2.257-1.028zM12.281 1.125c6.398 0 10.313 4.11 10.313 8.813c0 2.811-2.168 5.119-4.919 5.397a23.352 23.352 0 0 0-.219-.746C15.715 9.132 11.567 4.907 6.23 2.957c1.735-1.177 3.78-1.839 6.051-1.832zM1.405 12.001c0-3.283 1.455-6.227 3.756-8.223c4.377 1.403 7.964 4.397 10.058 8.371a4.134 4.134 0 0 0-.859-.272a18.857 18.857 0 0 0-3.807-.394c-3.24.006-6.345.859-9.001 2.325a10.891 10.891 0 0 1-.147-1.807zm11.324 7.966c1.224.257 2.526.398 3.829.398c.996 0 1.986-.083 2.948-.234a10.834 10.834 0 0 1-5.519 2.614a17.15 17.15 0 0 1-2.072-3.032c.259.109.531.195.814.254zm-.084 2.904c-.12.004-.242.006-.364.006a10.59 10.59 0 0 1-4.994-1.209a17.09 17.09 0 0 1 2.171-5.277c.034.294.099.587.186.848a18.754 18.754 0 0 0 3.001 5.632zm-2.192-9.664a18.826 18.826 0 0 0-4.176 7.864a10.904 10.904 0 0 1-4.467-6.117a17.127 17.127 0 0 1 8.744-2.346c.18 0 .358.002.536.008a4.097 4.097 0 0 0-.637.591z"
-                                                fill="#a3a5a5" /></svg></a></li>
-                                <li class="inline-block mr-8 mb-8"><a
-                                        href="https://open.spotify.com/show/4y0e77EQRZijXzRSWLpY4O" target="_blank"><a
-                                            href=""><svg xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                                width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                                viewBox="0 0 16 16">
-                                                <g fill="#a3a5a5">
-                                                    <path
-                                                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />
-                                                </g>
-                                            </svg></a></a></li>
-                                <li class="inline-block mr-8 mb-8"><a href="" target="_blank"><svg class="rounded-md"
-                                            width="100" height="100" viewBox="0 0 100 100" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <rect width="100" height="100" fill="#A3A4A4" />
-                                            <path
-                                                d="M59.7641 62.5378C59.7641 64.8734 59.5317 67.5484 59.0669 70.5629C58.2193 76.4018 57.4674 80.652 56.8112 83.3135C56.2097 85.7577 54.1317 86.9798 50.5772 86.9798C47.0228 86.9798 44.9448 85.7577 44.3433 83.3135C43.6871 80.652 42.9352 76.4018 42.0876 70.5629C41.6228 67.5756 41.3903 64.9005 41.3903 62.5378C41.3903 57.9753 44.4526 55.6941 50.5772 55.6941C56.7018 55.6941 59.7641 57.9753 59.7641 62.5378ZM81.9931 45.2655C81.9931 51.7834 80.1612 57.6766 76.4974 62.9452C72.8336 68.2138 68.0487 72.0159 62.1429 74.3514C61.9241 74.4329 61.7191 74.3922 61.5277 74.2292C61.3363 74.0663 61.2543 73.8626 61.2816 73.6182C61.473 72.3146 61.6097 71.4184 61.6917 70.9296C61.8011 70.0605 61.8831 69.4223 61.9378 69.0149C61.9651 68.7705 62.0882 68.6076 62.3069 68.5261C66.6543 66.3263 70.1472 63.1489 72.7857 58.9937C75.4242 54.8386 76.7435 50.2625 76.7435 45.2655C76.7435 40.3771 75.4994 35.8893 73.0113 31.802C70.5232 27.7148 67.1464 24.5306 62.8811 22.2493C58.6158 19.9681 54.0086 18.9632 49.0598 19.2348C45.6694 19.4249 42.4293 20.2532 39.3397 21.7197C36.2501 23.1863 33.6047 25.0941 31.4037 27.4432C29.2027 29.7924 27.4528 32.5353 26.1541 35.672C24.8553 38.8087 24.2196 42.0745 24.247 45.4692C24.2743 50.4662 25.6277 55.0355 28.3072 59.177C30.9867 63.3186 34.5002 66.4621 38.8475 68.6076C39.0389 68.689 39.162 68.852 39.2167 69.0964C39.2987 69.6667 39.3807 70.2778 39.4627 70.9296C39.4901 71.174 39.5584 71.6153 39.6678 72.2535C39.7772 72.8917 39.8592 73.3738 39.9139 73.6996C39.9412 73.9441 39.8524 74.1478 39.6473 74.3107C39.4422 74.4736 39.2303 74.5008 39.0116 74.3922C34.965 72.817 31.3969 70.5154 28.3072 67.4873C25.2176 64.4592 22.8457 60.8744 21.1915 56.7329C19.5373 52.5913 18.8196 48.2528 19.0383 43.7175C19.2297 39.834 20.132 36.1201 21.7452 32.576C23.3583 29.032 25.4705 25.9496 28.0817 23.3288C30.6928 20.7081 33.7688 18.5694 37.3096 16.9128C40.8503 15.2562 44.5757 14.3057 48.4856 14.0613C52.9697 13.7897 57.2828 14.4211 61.4251 15.9555C65.5674 17.4899 69.1356 19.6693 72.1295 22.4937C75.1234 25.3181 77.5159 28.7196 79.3068 32.6983C81.0977 36.6769 81.9931 40.8659 81.9931 45.2655ZM59.7641 43.9619C59.7641 46.4876 58.8687 48.6398 57.0778 50.4187C55.2869 52.1975 53.12 53.0869 50.5772 53.0869C48.0344 53.0869 45.8676 52.1975 44.0767 50.4187C42.2858 48.6398 41.3903 46.4876 41.3903 43.9619C41.3903 41.4363 42.2858 39.284 44.0767 37.5052C45.8676 35.7263 48.0344 34.8369 50.5772 34.8369C53.12 34.8369 55.2869 35.7263 57.0778 37.5052C58.8687 39.284 59.7641 41.4363 59.7641 43.9619ZM71.5758 45.2655C71.5758 48.5787 70.8444 51.6815 69.3816 54.5738C67.9188 57.4661 65.9161 59.8764 63.3733 61.8046C63.1545 61.9675 62.9358 61.9947 62.717 61.886C62.4983 61.7774 62.3616 61.5873 62.3069 61.3157C62.1429 59.9035 61.7464 58.6543 61.1175 57.568C60.9262 57.2964 60.9672 57.0248 61.2406 56.7532C62.8264 55.2867 64.0705 53.5622 64.9728 51.5797C65.875 49.5972 66.3262 47.4924 66.3262 45.2655C66.3262 42.251 65.5264 39.4809 63.9269 36.9552C62.3274 34.4296 60.1742 32.5082 57.4674 31.191C54.7605 29.8738 51.8623 29.3782 48.7727 29.7041C45.1362 30.1115 42.0055 31.6459 39.3807 34.3074C36.7559 36.9688 35.2658 40.1055 34.9103 43.7175C34.6369 46.216 34.9582 48.6059 35.8741 50.8871C36.7901 53.1684 38.1367 55.1238 39.9139 56.7532C40.1873 57.0248 40.2283 57.2964 40.0369 57.568C39.3807 58.6814 38.9843 59.9443 38.8475 61.3565C38.7929 61.6009 38.6562 61.7774 38.4374 61.886C38.2187 61.9947 37.9999 61.9675 37.7812 61.8046C35.1837 59.7949 33.1536 57.31 31.6908 54.3498C30.228 51.3896 29.5239 48.2121 29.5786 44.8174C29.6607 41.2597 30.604 37.9465 32.4085 34.8777C34.2131 31.8088 36.6328 29.3443 39.6678 27.484C42.7028 25.6237 45.9975 24.612 49.5519 24.4491C53.4891 24.259 57.153 25.0737 60.5434 26.8933C63.9338 28.7129 66.6201 31.2589 68.6024 34.5314C70.5847 37.8039 71.5758 41.3819 71.5758 45.2655Z"
-                                                fill="white" />
-                                        </svg>
-                                    </a></li>
-                                <li class="inline-block mr-8 mb-8"><a
-                                        href="https://radiopublic.com/the-digital-speaker-GAK0MN" target="_blank"><svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                            width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 32 32">
-                                            <path
-                                                d="M18.584 5.432c4.343-.38 8.681-2.635 13.025-.719v26.521c-5.989-2.651-11.979 2.651-17.969 0v-4.661c-4.416.359-8.833 2.645-13.249.719V.771c6.068 2.651 12.131-2.651 18.193 0zm3.307 14.396c.525-.115 1.047-.235 1.568-.349c2.312-.505 3.235-1.869 3.235-4.015V12c0-2.115-.595-3.453-3.407-2.849c-1.568.344-3.136.724-4.703.865v17.287c1.104-.095 2.203-.313 3.307-.553zm0-2.812v-4.88l.625-.141c.771-.172.844.208.844.839v2.88c0 .537-.073.995-.844 1.161zM8.708 22.812v-7.391l.699-.151c.672-.145.864.021.869.833v5.047c0 .767.125 1.109.297 1.261c1.104-.229 2.208-.433 3.307-.505v-.115c-.12-.199-.271-.511-.271-1.261v-5.88c0-1.281-.896-1.771-1.416-1.864c.619-.365 1.463-1.068 1.463-2.505V7.516c0-1.855-1.016-2.833-3.031-2.407c-1.745.364-3.485.808-5.224.959V23.36c1.099-.095 2.203-.308 3.307-.548zm0-10.244V8.197c.251-.057.495-.109.745-.167c.672-.145.823.057.823.803v2.344c0 .812-.249 1.099-.921 1.244z"
-                                                fill="#b5b5b5" /></svg></a></li>
-                                <li class="inline-block mr-8 mb-8"><a href="https://pca.st/uq8ly7oh"
-                                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                            width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12s12-5.372 12-12S18.628 0 12 0zm3.564 12A3.564 3.564 0 1 0 12 15.564V17.6a5.6 5.6 0 1 1 5.6-5.6h-2.036zM19 12a7 7 0 1 0-7 7v2.333a9.333 9.333 0 1 1 0-18.666A9.333 9.333 0 0 1 21.333 12H19z"
-                                                fill="#b5b5b5" /></svg></a></li>
-                                <li class="inline-block mr-8 mb-8"><a href="https://soundcloud.com/the-digital-speaker"
-                                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                            width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 20 20">
-                                            <path
-                                                d="M.672 13.055L1 11.654l-.328-1.447c-.009-.043-.092-.076-.191-.076c-.102 0-.184.033-.191.076L0 11.654l.289 1.4c.008.045.09.076.191.076c.1.001.183-.03.192-.075zm2.051.777L3 11.668L2.723 8.32c-.009-.084-.114-.152-.239-.152c-.127 0-.233.068-.238.152L2 11.668l.246 2.164c.006.086.111.152.238.152c.125 0 .23-.066.239-.152zm2.045-.035L5 11.67l-.232-4.457c-.006-.106-.129-.188-.282-.188c-.152 0-.275.082-.281.188L4 11.67l.205 2.129c.006.103.129.186.281.186c.153-.001.276-.083.282-.188zm2.042-.031L7 11.67l-.19-4.49c-.005-.123-.146-.221-.32-.221c-.176 0-.316.098-.321.221L6 11.67l.17 2.096c.004.123.145.221.32.221c.174-.001.315-.096.32-.221zm2.04-.028L9 11.672l-.15-5.149c-.004-.142-.164-.255-.358-.255c-.194 0-.354.115-.357.256L8 11.67l.135 2.068c.003.141.163.256.357.256c.194 0 .354-.113.358-.256zm1.427.258l7.145.004C18.846 14 20 12.883 20 11.506c0-1.377-1.154-2.492-2.578-2.492c-.353 0-.689.07-.996.193c-.205-2.246-2.153-4.008-4.529-4.008a4.77 4.77 0 0 0-1.648.297c-.196.074-.247.148-.249.295v7.91a.306.306 0 0 0 .277.295z"
-                                                fill="#b5b5b5" /></svg></a></li>
-                                <li class="inline-block mb-8"><a
-                                        href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80Nzk1YmIxYy9wb2RjYXN0L3Jzcw=="
-                                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                                            width="100" height="100" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M17.68 7.22v1.4c0 .68-.55 1.24-1.25 1.24c-.69 0-1.25-.56-1.25-1.24v-1.4a1.25 1.25 0 0 1 1.25-1.25c.7 0 1.25.56 1.25 1.25m-4.43 1.14v7.27a1.25 1.25 0 0 1-2.5 0V8.36c0-.68.56-1.25 1.25-1.25s1.25.57 1.25 1.25M22 11.3v1.4c0 .68-.56 1.24-1.25 1.24s-1.25-.56-1.25-1.24v-1.4c0-.69.56-1.24 1.25-1.24S22 10.61 22 11.3m-17.5 0v1.4c0 .68-.56 1.24-1.25 1.24c-.7 0-1.25-.56-1.25-1.24v-1.4c0-.69.55-1.24 1.25-1.24c.69 0 1.25.55 1.25 1.24m4.32 4.08v1.39c0 .68-.56 1.23-1.25 1.23s-1.25-.55-1.25-1.23v-1.39c0-.7.56-1.25 1.25-1.25a1.25 1.25 0 0 1 1.25 1.25m4.43 3.98v1.39A1.25 1.25 0 0 1 12 22a1.25 1.25 0 0 1-1.25-1.25v-1.39A1.25 1.25 0 0 1 12 18.11a1.25 1.25 0 0 1 1.25 1.25m0-16.11v1.39A1.25 1.25 0 0 1 12 5.89a1.25 1.25 0 0 1-1.25-1.25V3.25c0-.7.56-1.25 1.25-1.25a1.25 1.25 0 0 1 1.25 1.25m4.43 9.09v4.43c0 .69-.55 1.23-1.25 1.23c-.69 0-1.25-.54-1.25-1.23v-4.43c0-.7.56-1.25 1.25-1.25c.7 0 1.25.55 1.25 1.25M8.82 7.22v4.43c0 .7-.56 1.25-1.25 1.25a1.25 1.25 0 0 1-1.25-1.25V7.22a1.25 1.25 0 0 1 1.25-1.25a1.25 1.25 0 0 1 1.25 1.25z"
-                                                fill="#b5b5b5" /></svg></a></li>
-                                <li class="inline-block"><a href="https://anchor.fm/the-digital-speaker"
-                                        target="_blank"></a></li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!--  ====================== Podcast Area End =============================  -->
-        <!--  ====================== Books Area Start =============================  -->
-        <section class="books-area py-32 bg-lightBlue-100">
+        <!--  ====================== Contact Area Start =============================  -->
+        <section class="contact-area py-20 md:py-32 bg-lightBlue-100">
             <div class="container mx-auto">
-                <div class="section-title text-center pb-16">
-                    <h2 class="font-bold text-4xl">My Books</h2>
-                </div>
-                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mb-32">
-
-                    <div class="books-box  p-10 bg-white rounded-md h-full flex flex-col justify-between relative">
-                        <div class="top">
-                            <div class="books-images-icon mb-6">
-                                <img src="assets/images/index-1/books-1.jpg" alt="books-3">
-                            </div>
-                            <div class="inline-block mb-6">
-                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2018
-                                </p>
-                            </div>
-                            <p class="text-2xl font-bold text-blueGray-900 pb-6">The Organisation of Tomorrow </p>
-                            <p class="text-blueGray-600 text-lg font-normal">The Organisation of Tomorrow presents a new
-                                model of doing
+                <div class="lg:flex">
+                    <div class="lg:w-5/12 lg:mr-32 mb-8 lg:mb-0">
+                        <div class="contact-content">
+                            <h2 class="text-4xl font-bold text-lightBlue-900 mb-8">Get in Contact</h2>
+                            <p class="text-blueGray-600 font-bold text-lg mb-8">Remain relevant in this digital age; book The Digital Speaker today!
                             </p>
-
-                        </div>
-                        <div class="paper-bottom-part pt-6">
-                            <hr>
-                            <div class="mt-4 flex items-center">
-                                <div class="paper-icon inline-block">
-                                    <p
-                                        class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                fill="#0F172A" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <p class="text-xs">Mark Van Rijmenam, Philippa Ryan</p>
-                            </div>
-                        </div>
-
-
-                        <div
-                            class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
-                            <p class="text-blueGray-600 text-lg mb-6">This book offers governments, professional
-                                services,
-                                manufacturing, finance, retail and other
-                                industries a clear approach for how to develop products and services that are ready for
-                                the
-                                21st century. It is a must-read for every organisation that wants to remain competitive
-                                in
-                                our fast-changing world.</p>
-                            <a class="text-lightBlue-500 text-base font-bold underline-hover"
-                                href="books-tomorrow.html">Read More</a>
-                            <div class="amazon-button my-6 ">
-                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white"
-                                    href="https://www.amazon.com/"><img
-                                        src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="books-box relative p-10 bg-white rounded-md h-full flex flex-col justify-between">
-                        <div class="top">
-                            <div class="books-images-icon mb-6">
-                                <img src="assets/images/index-1/books-1.jpg" alt="books-3">
-                            </div>
-                            <div class="inline-block mb-6">
-                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2018
-                                </p>
-                            </div>
-                            <p class="text-2xl font-bold text-blueGray-900 pb-6">Blockchain </p>
-                            <p class="text-blueGray-600 text-lg font-normal">Transforming your business and our world
-                            </p>
-
-                        </div>
-                        <div class="paper-bottom-part pt-6">
-                            <hr>
-                            <div class="mt-4 flex items-center">
-                                <div class="paper-icon inline-block">
-                                    <p
-                                        class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                fill="#0F172A" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <p class="text-xs">Mark Van Rijmenam, Philippa Ryan</p>
-                            </div>
-                        </div>
-                        <div
-                            class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
-                            <p class="text-blueGray-600 text-lg mb-6">The internet was envisaged as a decentralised
-                                global network, but in the past 25 years, it has come to be controlled by a few, very
-                                powerful, centralised companies. Blockchain is a technological paradigm shift that
-                                allows secure, reliable, and direct information transfer between individuals,
-                                organisations, and things, so that we can manage, verify, and control the use of our own
-                                data.</p>
-                            <a class="text-lightBlue-500 text-base font-bold underline-hover"
-                                href="books-blockchain.html">Read More</a>
-                            <div class="amazon-button my-6 ">
-                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white"
-                                    href="https://www.amazon.com/"><img
-                                        src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
-
-                            </div>
-
+                            <p class="text-lg font-normal text-blueGray-600 mb-8">If you are interested in booking The Digital Speaker for an in-person, virtual or avatar/hologram keynote presentation, please contact us, and we will get back to you within 24 hours on business days.</p>
+                            <span><svg class="inline-block mr-4" width="22" height="18" viewBox="0 0 22 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 1V0V1ZM19 1V0V1ZM1 15H0H1ZM8.501 11.001L9.12575 10.2202L9.12571 10.2201L8.501 11.001ZM13.499 11.001L12.8743 10.2201L12.8742 10.2202L13.499 11.001ZM2 3C2 2.73478 2.10536 2.48043 2.29289 2.29289L0.87868 0.87868C0.31607 1.44129 0 2.20435 0 3H2ZM2.29289 2.29289C2.48043 2.10536 2.73478 2 3 2V0C2.20435 0 1.44129 0.31607 0.87868 0.87868L2.29289 2.29289ZM3 2H19V0H3V2ZM19 2C19.2652 2 19.5196 2.10536 19.7071 2.29289L21.1213 0.87868C20.5587 0.31607 19.7957 0 19 0V2ZM19.7071 2.29289C19.8946 2.48043 20 2.73478 20 3H22C22 2.20435 21.6839 1.44129 21.1213 0.87868L19.7071 2.29289ZM20 3V15H22V3H20ZM20 15C20 15.2652 19.8946 15.5196 19.7071 15.7071L21.1213 17.1213C21.6839 16.5587 22 15.7957 22 15H20ZM19.7071 15.7071C19.5196 15.8946 19.2652 16 19 16V18C19.7957 18 20.5587 17.6839 21.1213 17.1213L19.7071 15.7071ZM19 16H3V18H19V16ZM3 16C2.73478 16 2.48043 15.8946 2.29289 15.7071L0.87868 17.1213C1.44129 17.6839 2.20435 18 3 18V16ZM2.29289 15.7071C2.10536 15.5196 2 15.2652 2 15H0C0 15.7956 0.31607 16.5587 0.87868 17.1213L2.29289 15.7071ZM2 15V3H0V15H2ZM0.375292 5.78086L7.87629 11.7819L9.12571 10.2201L1.62471 4.21914L0.375292 5.78086ZM7.87625 11.7818C8.76286 12.4912 9.86452 12.8777 11 12.8777V10.8777C10.3187 10.8777 9.65772 10.6458 9.12575 10.2202L7.87625 11.7818ZM11 12.8777C12.1355 12.8777 13.2371 12.4912 14.1237 11.7818L12.8742 10.2202C12.3423 10.6458 11.6813 10.8777 11 10.8777V12.8777ZM14.1237 11.7819L21.6247 5.78086L20.3753 4.21914L12.8743 10.2201L14.1237 11.7819Z"
+                                        fill="#475569" />
+                                </svg>
+                            </span>
+                            <span class="text-base font-bold text-blueGray-600">inquiries[at]TheDigitalSpeaker.com</span>
                         </div>
                     </div>
-                    <div class="books-box relative p-10 bg-white rounded-md h-full flex flex-col justify-between">
-                        <div class="top">
-                            <div class="books-images-icon mb-6">
-                                <img src="assets/images/index-1/books-2.jpg" alt="books-3">
-                            </div>
-                            <div class="inline-block mb-6">
-                                <p class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">2014
-                                </p>
-                            </div>
-                            <p class="text-2xl font-bold text-blueGray-900 pb-6">Think Bigger </p>
-                            <p class="text-blueGray-600 text-lg font-normal">Dfevfeloping a succesful big data strategy
-                                for your business
-                            </p>
+                    <div class="lg:w-6/12 ">
+                        <div class="w-full">
+                            <form class="bg-white rounded-md p-10">
+                                <div class="mb-6">
 
-                        </div>
-                        <div class="paper-bottom-part pt-6">
-                            <hr>
-                            <div class="mt-4 flex items-center">
-                                <div class="paper-icon inline-block">
-                                    <p
-                                        class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                        <svg class="inline-block" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                fill="#0F172A" />
-                                        </svg>
-                                    </p>
+                                    <input class=" appearance-none border-blueGray-600 border rounded-sm w-full py-3 px-4  leading-none " type="text" placeholder="Name...">
                                 </div>
-                                <p class="text-xs">Mark Van Rijmenam, Philippa Ryan</p>
-                            </div>
-                        </div>
-                        <div
-                            class="books-box-hover transition duration-500 opacity-0 bg-white rounded-md py-20 px-10 absolute top-0 right-0 w-full h-full">
-                            <p class="text-blueGray-600 text-lg mb-6">From purchasing transactions, to chatter from
-                                social networks, to web server logs, to satellite imagery, to traffic flow sensors, it’s
-                                estimated that we now create–every two days –as much information as we did from the dawn
-                                of civilization up until 2003. What’s more, it’s expected that the amount of data
-                                currently available will double every two years world­wide as virtually everything
-                                becomes digitized.</p>
-                            <a class="text-lightBlue-500 text-base font-bold underline-hover"
-                                href="books-bigger.html">Read More</a>
-                            <div class="amazon-button my-6 ">
-                                <a class="border-2 inline-block px-6 rounded-md border-blueGray-300 bg-white"
-                                    href="https://www.amazon.com/"><img
-                                        src="assets/images/index-1/amazon-buy-button.svg" alt="amazon-buy-button"></a>
+                                <div class="mb-6">
 
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="academic-paper">
-                    <div class="section-title text-center pb-16">
-                        <h2 class="font-bold text-4xl">My Academic Paper</h2>
-                    </div>
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
-                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
-                            <div class="top">
-                                <div class="academic-img mb-6">
-                                    <img src="assets/images/index-1/academic-1.jpg" alt="academic-1">
+                                    <input class=" appearance-none border-blueGray-600 border rounded-sm w-full py-3 px-4  leading-none " type="email" placeholder="Email">
                                 </div>
-                                <div class="paper-top-part">
-                                    <div class="inline-block mb-6">
-                                        <p
-                                            class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
-                                            2018</p>
-                                    </div>
-                                    <p class="text-2xl font-bold text-blueGray-900 pb-6">Revising the ‘science of the
-                                        organisation’: theorising AI agency and actorhood </p>
+                                <div class="mb-6">
+
+                                    <input class=" appearance-none border-blueGray-600 border rounded-sm w-full py-3 px-4  leading-none " type="tel" placeholder="Phone Number">
+                                </div>
+                                <div class="mb-6">
+
+                                    <textarea rows="5" class="border border-blueGray-600  px-6 py-3 w-full rounded-sm" placeholder="Message"></textarea>
                                 </div>
 
-                            </div>
-                            <div class="paper-bottom-part">
-                                <hr class="pt-6">
-                                <div class="paper-publisher flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
-                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
 
-                                        </p>
-                                    </div>
-                                    <p class="text-xs"> Innovation, 23(1), pp.127-144</p>
-
-                                </div>
-                                <div class="paper-publisher mt-4 flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                    fill="#0F172A" />
-                                            </svg>
+                                <a class="bg-lightBlue-500 w-full btn text-center text-white font-bold text-base rounded-md py-4" href="#">SEND MESSAGE</a>
 
 
-                                        </p>
-                                    </div>
-                                    <p class="text-xs">Van Rijmenam, M. and Logue, D.</p>
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
-                            <div class="top">
-                                <div class="academic-img mb-6">
-                                    <img src="assets/images/index-1/academic-2.jpg" alt="academic-1">
-                                </div>
-                                <div class="paper-top-part">
-                                    <div class="inline-block mb-6">
-                                        <p
-                                            class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
-                                            2019</p>
-                                    </div>
-                                    <p class="text-2xl font-bold text-blueGray-900 pb-6">Avoid being the turkey: how big
-                                        data analytics changes the game of strategy in times of ambiguity and
-                                        uncertainty</p>
-                                </div>
+                            </form>
 
-                            </div>
-                            <div class="paper-bottom-part">
-                                <hr class="pt-6">
-                                <div class="paper-publisher flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
-                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
-
-                                        </p>
-                                    </div>
-                                    <p class="text-xs"> Long range planning, 52(5), p.101841</p>
-
-                                </div>
-                                <div class="paper-publisher mt-4 flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                    fill="#0F172A" />
-                                            </svg>
-
-
-                                        </p>
-                                    </div>
-                                    <p class="text-xs">Van Rijmenam, M., Erekhinskaya, T., Schweitzer, J. and Williams,
-                                        M.A.,</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="academic-box  p-10 rounded-md bg-white h-full flex flex-col justify-between ">
-                            <div class="top">
-                                <div class="academic-img mb-6">
-                                    <img class="rounded-md" src="assets/images/index-1/academic-3.jpg" alt="academic-1">
-                                </div>
-                                <div class="paper-top-part">
-                                    <div class="inline-block mb-6">
-                                        <p
-                                            class="text-blueGray-900 p-2 h-9 flex items-center bg-lightBlue-100  rounded-md">
-                                            2019</p>
-                                    </div>
-                                    <p class="text-2xl font-bold text-blueGray-900 pb-6">The politics of openness.
-                                        Cambridge Handbook of Open Strategy</p>
-                                </div>
-
-                            </div>
-                            <div class="paper-bottom-part">
-                                <hr class="pt-6">
-                                <div class="paper-publisher flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M5.24947 11H10.9154M9.49894 3.2093L10.2072 3.91755M10.5613 1.43869C10.7008 1.57819 10.8115 1.74381 10.8871 1.92609C10.9626 2.10838 11.0014 2.30375 11.0014 2.50106C11.0014 2.69837 10.9626 2.89374 10.8871 3.07603C10.8115 3.25831 10.7008 3.42393 10.5613 3.56343L3.83298 10.2918L1 11L1.70824 8.20668L8.43941 1.44153C8.70471 1.17492 9.06057 1.01783 9.43634 1.00143C9.8121 0.985026 10.1803 1.11052 10.4678 1.35299L10.5613 1.43869Z"
-                                                    stroke="#0F172A" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
-
-                                        </p>
-                                    </div>
-                                    <p class="text-xs"> Cambridge University Press, pp 307-325</p>
-
-                                </div>
-                                <div class="paper-publisher mt-4 flex">
-                                    <div class="paper-icon inline-block">
-                                        <p
-                                            class="bg-lightBlue-100 h-8 w-8 text-center flex items-center justify-center rounded-sm mr-4">
-                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M11.7997 10.609C11.4916 9.8793 11.0445 9.21645 10.4833 8.65741C9.92386 8.09676 9.26112 7.64976 8.5317 7.34108C8.52517 7.33781 8.51863 7.33618 8.5121 7.33291C9.52956 6.59799 10.191 5.40088 10.191 4.05025C10.191 1.81281 8.37818 0 6.14074 0C3.90331 0 2.09049 1.81281 2.09049 4.05025C2.09049 5.40088 2.75192 6.59799 3.76939 7.33455C3.76285 7.33781 3.75632 7.33945 3.74979 7.34271C3.01813 7.65138 2.3616 8.09397 1.79816 8.65905C1.23751 9.21851 0.7905 9.88126 0.481825 10.6107C0.178582 11.3248 0.0150365 12.0904 4.08389e-05 12.8661C-0.000395061 12.8835 0.00266227 12.9009 0.00903277 12.9171C0.0154033 12.9333 0.024958 12.9481 0.037134 12.9606C0.0493099 12.9731 0.0638607 12.983 0.079929 12.9898C0.0959974 12.9965 0.113258 13 0.130694 13H1.11059C1.18245 13 1.23961 12.9428 1.24125 12.8726C1.27391 11.6118 1.78019 10.431 2.67517 9.53606C3.60117 8.61005 4.83095 8.1005 6.14074 8.1005C7.45054 8.1005 8.68032 8.61005 9.60632 9.53606C10.5013 10.431 11.0076 11.6118 11.0402 12.8726C11.0419 12.9445 11.099 13 11.1709 13H12.1508C12.1682 13 12.1855 12.9965 12.2016 12.9898C12.2176 12.983 12.2322 12.9731 12.2444 12.9606C12.2565 12.9481 12.2661 12.9333 12.2725 12.9171C12.2788 12.9009 12.2819 12.8835 12.2814 12.8661C12.2651 12.0854 12.1034 11.326 11.7997 10.609ZM6.14074 6.8593C5.39112 6.8593 4.68559 6.56696 4.15481 6.03618C3.62404 5.5054 3.3317 4.79987 3.3317 4.05025C3.3317 3.30063 3.62404 2.5951 4.15481 2.06432C4.68559 1.53354 5.39112 1.24121 6.14074 1.24121C6.89037 1.24121 7.59589 1.53354 8.12667 2.06432C8.65745 2.5951 8.94979 3.30063 8.94979 4.05025C8.94979 4.79987 8.65745 5.5054 8.12667 6.03618C7.59589 6.56696 6.89037 6.8593 6.14074 6.8593Z"
-                                                    fill="#0F172A" />
-                                            </svg>
-
-
-                                        </p>
-                                    </div>
-                                    <p class="text-xs">Clegg, S., Van Rijmenam, M. and Schweitzer, J.,</p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!--  ====================== Books Area End =============================  -->
-        <!--  ====================== Tedx Area Start =============================  -->
-        <section class="tedx-area pt-32">
-            <div class="container mx-auto">
-                <div class="grid md:grid-cols-2 gap-20 items-center">
-                    <div class="tedx-images relative">
-
-                        <a class="video-popup" href="https://player.vimeo.com/video/499575924?h=ce8ba09430"> <img
-                                class="rounded-md" src="assets/images/index-1/tedx.jpg" alt="tedx"></a>
-                        <div class="popup-icon  ">
-                            <a class="video-popup absolute top-0 w-full h-full flex items-center justify-center"
-                                href="https://player.vimeo.com/video/499575924?h=ce8ba09430">
-                                <span class="bg-white flex w-16 h-16 justify-center items-center rounded-full"><svg
-                                        width="22" height="24" viewBox="0 0 22 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M20.5871 13.8577L3.62152 23.7016C2.18172 24.5362 0.333984 23.5256 0.333984 21.8432V2.15529C0.333984 0.475528 2.17906 -0.537664 3.62152 0.299552L20.5871 10.1435C20.9147 10.3305 21.1869 10.6007 21.3763 10.9269C21.5656 11.253 21.6654 11.6234 21.6654 12.0006C21.6654 12.3777 21.5656 12.7481 21.3763 13.0743C21.1869 13.4004 20.9147 13.6707 20.5871 13.8577Z"
-                                            fill="#0EA5E9"></path>
-                                    </svg>
-                                </span></a>
-                        </div>
-                    </div>
-                    <div class="tedx-content">
-                        <h5 class="font-bold text-blueGray-900 text-2xl mb-8">Mark delivered the world’s first TEDx Talk
-                            in virtual reality.</h5>
-                        <p class="text-blueGray-600 text-lg mb-4">As part of the Global Countdown event on 10-10-2020,
-                            Dr Van Rijmenam delivered the world’s first TEDx talk in virtual reality.</p>
-                        <p class="text-blueGray-600 text-lg mb-4">Discussing the Rise of Digitalism from the virtual
-                            world, Dr Van Rijmenam shared his insights on how Digitalism will become the first truly
-                            global political doctrine.
-                        </p>
-                        <h6 class="font-bold text-lg text-blueGray-900">Find out what the impact of Digitalism will be
-                            on your organisation by booking Dr Mark van Rijmenam today.</h6>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
-        <!--  ====================== Tedx Area End =============================  -->
-        <!--  ======================  Digital Speaker Area Start =============================  -->
-        <section class="speaker-area pt-32">
-            <div class="container mx-auto">
-                <div class="section-title mb-20 w-7/12">
-                    <h2 class="font-bold text-4xl">What formats does The Digital Speaker offer?</h2>
-                </div>
-                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
-                    <div class="avatar-concept flex items-center">
-                        <div class="avatar-concept-img  mr-8">
-                            <img class="rounded-md" src="assets/images/index-1/speaker-1.jpg" alt="speaker">
-                        </div>
-                        <div class="avatar-concept-content">
-                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">In-person keynotes</h5>
-                            <p class="mb-4 text-blueGray-900 text-base font-normal">Have the real Mark on stage, where
-                                he can even have a live conversation with his
-                                digital twin as a hologram.</p>
-                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
-                    <div class="avatar-concept flex items-center">
-                        <div class="avatar-concept-img  mr-8">
-                            <img class="rounded-md" src="assets/images/index-1/speaker-2.jpg" alt="speaker">
-                        </div>
-                        <div class="avatar-concept-content">
-                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">Virtual keynotes</h5>
-                            <p class="mb-4 text-blueGray-900 text-base font-normal">Book The Digital Speaker for a more
-                                traditional webinar or live, professionally recorded virtual keynote.</p>
-                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-10 bg-lightBlue-100 rounded-md mb-10">
-                    <div class="avatar-concept flex items-center">
-                        <div class="avatar-concept-img  mr-8">
-                            <img class="rounded-md" src="assets/images/index-1/speaker-3.jpg" alt="speaker">
-                        </div>
-                        <div class="avatar-concept-content">
-                            <h5 class="text-2xl text-lightBlue-900 font-bold mb-4">Avatar or hologram keynotes</h5>
-                            <p class="mb-4 text-blueGray-900 text-base font-normal">Opt for a magical experience and
-                                have Mark’s avatar or hologram deliver a truly unique experience anywhere in any
-                                language.</p>
-                            <a class="font-bold text-base text-lightBlue-900 underline-hover" href="about.html">Read
-                                More</a>
                         </div>
                     </div>
                 </div>
 
             </div>
         </section>
-        <!--  ======================  Digital Speaker Area End =============================  -->
-        <!--  ======================  Cta Area Start =============================  -->
-        <section class="cta-area py-32">
-            <div class="container mx-auto relative">
-                <div class="cta-box bg-cover  rounded-md h-60 flex items-center bg-no-repeat px-24"
-                    style="background-image: url(assets/images/index-1/cta.jpg);">
-
-                    <div class="cta-contant">
-                        <h3 class="text-white text-3xl font-bold mb-4">The Digital Speaker</h3>
-                        <p class="text-base  text-white  font-medium ">The Digital Speaker offers various, magical and
-                            futuristic experiences to truly inspire your audience</p>
-                        <div class="cta-button mt-5">
-                            <a class="bg-amber-500 text-white font-bold text-base py-4 px-6 rounded-md btn"
-                                href="books.html">Book a Digital Keynote</a>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="cta-man absolute -top-20 right-16">
-                    <img src="assets/images/index-1/cta-man.png" alt="cta-man">
-                </div>
-
-            </div>
-        </section>
-        <!--  ======================  Cta Area End =============================  -->
-        <!--  ======================  Testimonial Area Start =============================  -->
-        <section class="testimonial-area">
-            <div class="container mx-auto">
-                <div class="relative">
-                    <div class="testimonial-slider">
-                        <div class="testimonial-item p-7">
-                            <div class="flex">
-                                <div class="blockquote-icon mr-4">
-                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
-                                            fill="black" fill-opacity="0.2" />
-                                    </svg>
-
-                                </div>
-                                <div class="testimonial-content">
-                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">World-class inspirational
-                                    </h6>
-                                    <p>His presentation and insight in the discussion after was world-class
-                                        inspirational”
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="testimonial-author mt-10">
-                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover"
-                                        href="">Peter Barkman </a></h6>
-                                <p class="text-xs text-blueGray-600 font-normal">CMO – Solita
-                                </p>
-                            </div>
-
-                        </div>
-                      
-                        <div class="testimonial-item p-7">
-                            <div class="flex">
-                                <div class="blockquote-icon mr-4">
-                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
-                                            fill="black" fill-opacity="0.2" />
-                                    </svg>
-
-                                </div>
-                                <div class="testimonial-content">
-                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">Dr Mark van Rijmenam is simply
-                                        a rock star!
-
-                                    </h6>
-                                    <p>His ability to deliver a well-prepared message in a funny, interesting way and
-                                        engage everyone in the room is unparalleled in his industry.”
-                                        Sam Movsisyan Founder at Leadership School
-
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="testimonial-author mt-10">
-                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover" href="">Sam
-                                        Movsisyan</a> </h6>
-                                <p class="text-xs text-blueGray-600 font-normal">Founder at Leadership School
-                                </p>
-                            </div>
-
-                        </div>
-                          <div class="testimonial-item p-7">
-                            <div class="flex">
-                                <div class="blockquote-icon mr-4">
-                                    <svg width="49" height="33" viewBox="0 0 49 33" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.216875 21.744C0.216875 17.616 2.04088 12.96 5.68888 7.77599C9.33688 2.59199 12.0729 -8.58307e-06 13.8969 -8.58307e-06C15.6249 -8.58307e-06 16.4889 0.575993 16.4889 1.72799C16.4889 2.20799 16.0569 3.83999 15.1929 6.62399C14.4249 9.31199 14.0409 11.28 14.0409 12.528C14.0409 13.776 14.3769 14.592 15.0489 14.976C18.1209 17.088 19.6569 20.208 19.6569 24.336C19.6569 26.832 18.6969 28.848 16.7769 30.384C14.9529 31.92 12.5529 32.688 9.57688 32.688C3.33688 32.688 0.216875 29.04 0.216875 21.744ZM29.0169 21.744C29.0169 17.616 30.8409 12.96 34.4889 7.77599C38.1369 2.59199 40.8729 -8.58307e-06 42.6969 -8.58307e-06C44.4249 -8.58307e-06 45.2889 0.575993 45.2889 1.72799C45.2889 2.20799 44.8569 3.83999 43.9929 6.62399C43.2249 9.31199 42.8409 11.28 42.8409 12.528C42.8409 13.776 43.1769 14.592 43.8489 14.976C46.9209 17.088 48.4569 20.208 48.4569 24.336C48.4569 26.832 47.4969 28.848 45.5769 30.384C43.7529 31.92 41.3529 32.688 38.3769 32.688C32.1369 32.688 29.0169 29.04 29.0169 21.744Z"
-                                            fill="black" fill-opacity="0.2" />
-                                    </svg>
-
-                                </div>
-                                <div class="testimonial-content">
-                                    <h6 class="font-bold text-lg text-blueGray-900 mb-4">World-class inspirational
-                                    </h6>
-                                    <p>His presentation and insight in the discussion after was world-class
-                                        inspirational”
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="testimonial-author mt-10">
-                                <h6 class="text-lg font-bold text-lightBlue-900"><a class="underline-hover"
-                                        href="">Peter Barkman</a> </h6>
-                                <p class="text-xs text-blueGray-600 font-normal">CMO – Solita
-                                </p>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-                    <div class="slider-arrows">
-                        <button class="slider-prev"><span><svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.875 1L1 16M1 16L15.875 31M1 16H35" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            </span></button>
-                        <button class="slider-next"><span><svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.125 1L35 16M35 16L20.125 31M35 16H1" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            </span></button>
-                    </div>
-                    
-                </div>
-
-            </div>
-        </section>
-        <!--  ======================  Testimonial Area End =============================  -->
+        <!--  ====================== Contact Area End =============================  -->
 
         <!--  ====================== Footer Area Start =============================  -->
         <footer class="footer-area bg-blueGray-900 py-20 lg:py-32">
             <div class="container mx-auto">
 
-                <div class="footer-subscribe md:p-10 md:bg-lightBlue-500 rounded-lg mb-20">
+                <div class="footer-subscribe md:p-10 lg:bg-lightBlue-500 rounded-lg mb-20">
                     <div class="grid  sm:grid-cols-2 gap-10 lg:gap-20 w-full items-center">
                         <div>
                             <h2 class="text-xl md:text-4xl  font-bold text-white mb-2">Subscribe to Newsletter</h2>
-                            <p class=" font-normal text-white">Make bolder choices. Form stronger teams. Build better
-                                products.</p>
+                            <p class=" font-normal text-white">Make bolder choices. Form stronger teams. Build better products.
+                            </p>
                         </div>
                         <form action="#">
                             <div class="lg:flex  gap-2">
                                 <div class="flex-initial mb-3 mb-lg-0">
-                                    <input
-                                        class="appearance-none block w-full bg-white text-blueGray-500   rounded-md py-4 px-4  leading-6"
-                                        type="text" placeholder="Name">
+                                    <input class="appearance-none block w-full bg-white text-blueGray-500   rounded-md py-4 px-4  leading-6" type="text" placeholder="Name">
                                 </div>
                                 <div class="flex-initial mb-3 mb-lg-0">
-                                    <input
-                                        class="appearance-none block w-full bg-white text-blueGray-500   rounded-md py-4 px-6  leading-6"
-                                        type="text" placeholder="Email">
+                                    <input class="appearance-none block w-full bg-white text-blueGray-500   rounded-md py-4 px-6  leading-6" type="text" placeholder="Email">
                                 </div>
                                 <div class="lg:flex-initial">
-                                    <a class="py-5 w-full lg:w-auto text-center  px-6 btn rounded-md leading-none bg-amber-500 text-white text-base font-bold"
-                                        href="#">Subscribe </a>
+                                    <a class="py-5 w-full lg:w-auto text-center  px-6 btn rounded-md leading-none bg-amber-500 text-white text-base font-bold" href="#">Subscribe </a>
                                 </div>
 
                             </div>
@@ -1085,51 +1049,35 @@
 
                     </div>
                 </div>
-                <div
-                    class="sm:grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 pb-10  border-b border-primary-300 border-opacity-20">
+                <div class="sm:grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 pb-10  border-b border-primary-300 border-opacity-20">
                     <div class="footer-widget">
                         <h5 class="mb-8 text-white font-bold">Articles</h5>
                         <ul>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="about.html"> Artificial Intelligence (52)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Big Data (56)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Blockchain (76)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Blog (195)</a></li>
-                            <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Book (6)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="about.html"> Artificial Intelligence (52)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Big Data (56)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Blockchain (76)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Blog (195)</a></li>
+                            <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Book (6)</a></li>
                         </ul>
                     </div>
                     <div class="footer-widget">
 
                         <ul class="mt-14">
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="about.html"> Internet of Things (15)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Machine Learning (7)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Privacy (1)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Robotics (1)</a></li>
-                            <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Security (8)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="about.html"> Internet of Things (15)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Machine Learning (7)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Privacy (1)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Robotics (1)</a></li>
+                            <li class=" text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Security (8)</a></li>
                         </ul>
                     </div>
                     <div class="footer-widget">
 
                         <ul class="mt-14">
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="about.html"> The Digital Speaker series (13)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Trends (3)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Trust (1)</a></li>
-                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Technology (17)</a></li>
-                            <li class="text-blueGray-200"><a class=" text-base font-normal underline-hover"
-                                    href="Get-in-touch.html">Digitalism (4)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="about.html"> The Digital Speaker series (13)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Trends (3)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Trust (1)</a></li>
+                            <li class="mb-8 text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Technology (17)</a></li>
+                            <li class="text-blueGray-200"><a class=" text-base font-normal underline-hover" href="Get-in-touch.html">Digitalism (4)</a></li>
                         </ul>
                     </div>
                     <div class="footer-widget mt-14 ">
@@ -1143,18 +1091,14 @@
                         <div class="social-link mt-14 ">
                             <p class="font-bold text-base text-white mb-4">Follow Me</p>
                             <ul>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-lightBlue-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-lightBlue-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="12" height="10" viewBox="0 0 12 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M11.5358 1.56756C11.1287 1.74797 10.6913 1.86986 10.2316 1.92496C10.706 1.64109 11.0609 1.19431 11.2301 0.66798C10.7844 0.932731 10.2966 1.11909 9.78785 1.21895C9.44576 0.853682 8.99264 0.61158 8.49885 0.530226C8.00506 0.448873 7.49823 0.532819 7.05704 0.769032C6.61585 1.00525 6.26498 1.38051 6.05892 1.83656C5.85286 2.29262 5.80313 2.80394 5.91745 3.29116C5.0143 3.24581 4.13077 3.01107 3.32422 2.60216C2.51766 2.19326 1.8061 1.61933 1.23571 0.917621C1.04068 1.25405 0.928532 1.64411 0.928532 2.05953C0.928314 2.4335 1.02041 2.80175 1.19664 3.13159C1.37288 3.46143 1.6278 3.74268 1.9388 3.95037C1.57812 3.93889 1.22541 3.84143 0.910004 3.66611V3.69536C0.909968 4.21987 1.0914 4.72824 1.42351 5.13421C1.75563 5.54017 2.21797 5.81874 2.73209 5.92263C2.3975 6.01318 2.04672 6.02651 1.70622 5.96163C1.85128 6.41294 2.13383 6.8076 2.51432 7.09034C2.89481 7.37309 3.3542 7.52978 3.82817 7.53846C3.02358 8.17008 2.02992 8.51269 1.00703 8.51118C0.825838 8.51123 0.644798 8.50065 0.464844 8.47949C1.50313 9.14707 2.71178 9.50137 3.94616 9.5C8.12472 9.5 10.409 6.03916 10.409 3.03762C10.409 2.9401 10.4066 2.84161 10.4022 2.74409C10.8465 2.42277 11.2301 2.02486 11.5349 1.56903L11.5358 1.56756Z"
                                                 fill="white" />
                                         </svg>
                                     </a></li>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-lightBlue-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-lightBlue-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M2.51472 9.5H0.648822V3.49121H2.51472V9.5ZM1.58064 2.67157C0.984072 2.67157 0.5 2.17721 0.5 1.58064C0.5 1.29404 0.613853 1.01917 0.816513 0.816513C1.01917 0.613853 1.29404 0.5 1.58064 0.5C1.86725 0.5 2.14211 0.613853 2.34477 0.816513C2.54743 1.01917 2.66129 1.29404 2.66129 1.58064C2.66129 2.17721 2.17722 2.67157 1.58064 2.67157ZM7.63636 9.5V6.575C7.63636 5.87782 7.62222 4.98393 6.66629 4.98393C5.69622 4.98393 5.5474 5.74121 5.5474 6.52486V9.5H3.68343V3.49121H5.47282V4.31086H5.49886C5.74797 3.83868 6.35643 3.34046 7.26415 3.34046C9.15254 3.34046 9.49968 4.58407 9.49968 6.19925V9.5H7.63636Z"
@@ -1163,9 +1107,7 @@
 
 
                                     </a></li>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-red-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="14" height="10" viewBox="0 0 14 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-red-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="14" height="10" viewBox="0 0 14 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M13.166 1.915C13.0928 1.64357 12.9498 1.39602 12.7513 1.19701C12.5527 0.998004 12.3055 0.854468 12.0342 0.780692C11.0284 0.504501 7.00432 0.500005 7.00432 0.500005C7.00432 0.500005 2.98091 0.495509 1.97442 0.759496C1.70332 0.836667 1.45661 0.982233 1.25797 1.18222C1.05933 1.38221 0.915441 1.6299 0.840108 1.90152C0.574836 2.90737 0.572267 4.99358 0.572267 4.99358C0.572267 4.99358 0.569697 7.09006 0.833043 8.08564C0.980773 8.63609 1.41433 9.07094 1.96543 9.21931C2.98156 9.4955 6.99468 9.5 6.99468 9.5C6.99468 9.5 11.0187 9.50449 12.0246 9.24115C12.296 9.1675 12.5434 9.02429 12.7425 8.82569C12.9415 8.62709 13.0853 8.37996 13.1595 8.10876C13.4255 7.10355 13.4274 5.01798 13.4274 5.01798C13.4274 5.01798 13.4402 2.92086 13.166 1.915ZM5.71714 6.92628L5.72035 3.07244L9.06484 5.00257L5.71714 6.92628Z"
@@ -1173,9 +1115,7 @@
                                         </svg>
                                     </a></li>
 
-                                <li class="inline-block mr-2"><a
-                                        class="bg-lightBlue-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-lightBlue-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="12" height="10" viewBox="0 0 12 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M11.2444 2.58042C11.1984 3.59386 10.4844 4.98027 9.10449 6.74167C7.67808 8.58055 6.46965 9.5 5.48071 9.5C4.86825 9.5 4.35078 8.93903 3.92781 7.8206C3.64582 6.79316 3.36434 5.76573 3.07936 4.74079C2.76588 3.62236 2.4294 3.06139 2.06692 3.06139C1.98943 3.06139 1.71344 3.22638 1.24447 3.55136L0.75 2.9189C1.26747 2.46593 1.77994 2.01645 2.28291 1.56398C2.97287 0.971516 3.49383 0.661535 3.83881 0.630036C4.65526 0.553541 5.15873 1.10551 5.34872 2.29244C5.55271 3.57036 5.6937 4.36731 5.7742 4.67729C6.01018 5.73923 6.26917 6.26869 6.55065 6.26869C6.76914 6.26869 7.10012 5.92472 7.54009 5.23576C7.98006 4.5468 8.21555 4.02333 8.24755 3.66435C8.31054 3.06939 8.07506 2.77341 7.54009 2.77341C7.2901 2.77341 7.03112 2.8304 6.76364 2.9444C7.2786 1.268 8.26455 0.453547 9.71996 0.502044C10.7984 0.530542 11.3074 1.2255 11.2444 2.58042Z"
@@ -1185,9 +1125,7 @@
 
                                     </a></li>
 
-                                <li class="inline-block mr-2"><a
-                                        class="bg-pink-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-pink-600 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
                                                 d="M3.14477 0.527C3.62464 0.504909 3.77764 0.5 5 0.5C6.22236 0.5 6.37536 0.505318 6.85482 0.527C7.33427 0.548682 7.66155 0.625182 7.94791 0.736045C8.24777 0.849364 8.51982 1.0265 8.74482 1.25559C8.97391 1.48018 9.15064 1.75182 9.26355 2.05209C9.37482 2.33845 9.45091 2.66573 9.473 3.14436C9.49509 3.62505 9.5 3.77805 9.5 5C9.5 6.22236 9.49468 6.37536 9.473 6.85523C9.45132 7.33386 9.37482 7.66114 9.26355 7.9475C9.15063 8.24781 8.97361 8.5199 8.74482 8.74482C8.51982 8.97391 8.24777 9.15064 7.94791 9.26355C7.66155 9.37482 7.33427 9.45091 6.85564 9.473C6.37536 9.49509 6.22236 9.5 5 9.5C3.77764 9.5 3.62464 9.49468 3.14477 9.473C2.66614 9.45132 2.33886 9.37482 2.0525 9.26355C1.75219 9.15062 1.48011 8.9736 1.25518 8.74482C1.02625 8.52009 0.849083 8.24813 0.736045 7.94791C0.625182 7.66155 0.549091 7.33427 0.527 6.85564C0.504909 6.37495 0.5 6.22195 0.5 5C0.5 3.77764 0.505318 3.62464 0.527 3.14518C0.548682 2.66573 0.625182 2.33845 0.736045 2.05209C0.84925 1.75185 1.02655 1.4799 1.25559 1.25518C1.4802 1.0263 1.75201 0.849136 2.05209 0.736045C2.33845 0.625182 2.66614 0.549091 3.14477 0.527ZM6.81841 1.337C6.34386 1.31532 6.2015 1.31082 5 1.31082C3.7985 1.31082 3.65614 1.31532 3.18159 1.337C2.74264 1.35705 2.50455 1.43027 2.34582 1.49205C2.13595 1.57386 1.98582 1.67082 1.82832 1.82832C1.67902 1.97357 1.56412 2.15039 1.49205 2.34582C1.43027 2.50455 1.35705 2.74264 1.337 3.18159C1.31532 3.65614 1.31082 3.7985 1.31082 5C1.31082 6.2015 1.31532 6.34386 1.337 6.81841C1.35705 7.25736 1.43027 7.49545 1.49205 7.65418C1.56405 7.84932 1.679 8.02645 1.82832 8.17168C1.97355 8.321 2.15068 8.43595 2.34582 8.50795C2.50455 8.56973 2.74264 8.64295 3.18159 8.663C3.65614 8.68468 3.79809 8.68918 5 8.68918C6.20191 8.68918 6.34386 8.68468 6.81841 8.663C7.25736 8.64295 7.49545 8.56973 7.65418 8.50795C7.86405 8.42614 8.01418 8.32918 8.17168 8.17168C8.321 8.02645 8.43595 7.84932 8.50795 7.65418C8.56973 7.49545 8.64295 7.25736 8.663 6.81841C8.68468 6.34386 8.68918 6.2015 8.68918 5C8.68918 3.7985 8.68468 3.65614 8.663 3.18159C8.64295 2.74264 8.56973 2.50455 8.50795 2.34582C8.42614 2.13595 8.32918 1.98582 8.17168 1.82832C8.02642 1.67903 7.84961 1.56413 7.65418 1.49205C7.49545 1.43027 7.25736 1.35705 6.81841 1.337ZM4.42523 6.38723C4.74622 6.52085 5.10365 6.53888 5.43647 6.43825C5.76929 6.33762 6.05684 6.12456 6.25002 5.83546C6.4432 5.54637 6.53002 5.19917 6.49566 4.85318C6.46129 4.50718 6.30787 4.18385 6.06159 3.93841C5.9046 3.78151 5.71477 3.66138 5.50577 3.58665C5.29678 3.51192 5.07381 3.48447 4.85293 3.50625C4.63205 3.52804 4.41874 3.59853 4.22837 3.71264C4.038 3.82676 3.8753 3.98167 3.75199 4.16621C3.62867 4.35076 3.5478 4.56035 3.51521 4.77989C3.48262 4.99944 3.49911 5.22348 3.56349 5.43589C3.62788 5.6483 3.73856 5.84379 3.88757 6.0083C4.03657 6.1728 4.2202 6.30221 4.42523 6.38723ZM3.36445 3.36445C3.57924 3.14967 3.83422 2.9793 4.11485 2.86306C4.39548 2.74682 4.69625 2.68699 5 2.68699C5.30375 2.68699 5.60452 2.74682 5.88515 2.86306C6.16578 2.9793 6.42076 3.14967 6.63555 3.36445C6.85033 3.57924 7.0207 3.83422 7.13694 4.11485C7.25318 4.39548 7.31301 4.69625 7.31301 5C7.31301 5.30375 7.25318 5.60452 7.13694 5.88515C7.0207 6.16578 6.85033 6.42076 6.63555 6.63555C6.20177 7.06932 5.61345 7.31301 5 7.31301C4.38655 7.31301 3.79823 7.06932 3.36445 6.63555C2.93068 6.20177 2.68699 5.61345 2.68699 5C2.68699 4.38655 2.93068 3.79823 3.36445 3.36445ZM7.826 3.03145C7.87922 2.98125 7.92183 2.92087 7.95131 2.8539C7.98078 2.78693 7.99651 2.71472 7.99758 2.64156C7.99865 2.5684 7.98502 2.49577 7.95752 2.42797C7.93001 2.36017 7.88918 2.29857 7.83744 2.24683C7.7857 2.1951 7.72411 2.15426 7.65631 2.12676C7.5885 2.09925 7.51587 2.08563 7.44271 2.08669C7.36955 2.08776 7.29735 2.10349 7.23037 2.13297C7.1634 2.16244 7.10303 2.20505 7.05282 2.25827C6.95517 2.36178 6.90171 2.49928 6.90379 2.64156C6.90586 2.78385 6.96331 2.91972 7.06393 3.02034C7.16455 3.12097 7.30042 3.17841 7.44271 3.18049C7.585 3.18256 7.72249 3.1291 7.826 3.03145Z"
@@ -1195,9 +1133,7 @@
                                         </svg>
 
                                     </a></li>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-orange-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-orange-400 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M0.5 0.5V1.90151C4.69566 1.90151 8.09671 5.30375 8.09671 9.49941H9.49941C9.49941 4.52928 5.47013 0.5 0.5 0.5ZM0.5 3.3048V4.7075C1.12933 4.7075 1.7525 4.83147 2.33392 5.07232C2.91534 5.31317 3.44362 5.66619 3.8886 6.11123C4.33358 6.55626 4.68653 7.08458 4.92732 7.66603C5.1681 8.24748 5.29199 8.87067 5.29191 9.5H6.69401C6.69401 6.07882 3.92059 3.3048 0.5 3.3048ZM1.84349 6.81125C1.49182 6.81863 1.15705 6.96351 0.910952 7.21483C0.664856 7.46614 0.527031 7.80388 0.527031 8.15562C0.527031 8.50737 0.664856 8.84511 0.910952 9.09642C1.15705 9.34774 1.49182 9.49262 1.84349 9.5C2.58599 9.5 3.18697 8.89842 3.18697 8.15592C3.18697 7.41342 2.58599 6.81125 1.84349 6.81125Z"
@@ -1212,9 +1148,7 @@
                         <div class="social-link mt-14">
                             <p class="font-bold text-base text-white mb-4">Listen</p>
                             <ul>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-green-500 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-green-500 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M5 0.5C2.525 0.5 0.5 2.525 0.5 5C0.5 7.475 2.525 9.5 5 9.5C7.475 9.5 9.5 7.475 9.5 5C9.5 2.525 7.4975 0.5 5 0.5ZM6.6875 7.0925C5.63 6.44 4.3025 6.305 2.7275 6.665C2.57 6.71 2.435 6.5975 2.39 6.4625C2.345 6.305 2.4575 6.17 2.5925 6.125C4.3025 5.7425 5.7875 5.9 6.9575 6.62C7.115 6.6875 7.1375 6.8675 7.07 7.0025C6.98 7.1375 6.8225 7.1825 6.6875 7.0925ZM7.1375 5.8775C5.9225 5.135 4.0775 4.91 2.66 5.36C2.48 5.405 2.2775 5.315 2.2325 5.135C2.1875 4.955 2.2775 4.7525 2.4575 4.7075C4.1 4.2125 6.125 4.46 7.52 5.315C7.655 5.3825 7.7225 5.6075 7.61 5.765C7.4975 5.9225 7.295 5.99 7.1375 5.8775ZM2.435 3.9875C2.21 4.055 1.985 3.92 1.9175 3.7175C1.85 3.4925 1.985 3.2675 2.1875 3.2C3.785 2.7275 6.4175 2.8175 8.0825 3.8075C8.285 3.92 8.3525 4.19 8.24 4.3925C8.1275 4.55 7.8575 4.6175 7.655 4.505C6.215 3.65 3.8075 3.56 2.435 3.9875Z"
@@ -1222,9 +1156,7 @@
                                         </svg>
 
                                     </a></li>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-lightBlue-200 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn"
-                                        href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-lightBlue-200 transition duration-500   transform  hover:-translate-y-2 inline-block p-2 rounded-sm btn" href=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <rect x="0.5" y="0.5" width="9" height="9" fill="url(#pattern0)" />
@@ -1242,9 +1174,7 @@
 
 
                                     </a></li>
-                                <li class="inline-block mr-2"><a
-                                        class="bg-orange-500 transition duration-500   transform  hover:-translate-y-2 inline-block p-2  rounded-sm btn"
-                                        href=""><svg width="22" height="10" viewBox="0 0 22 10" fill="none"
+                                <li class="inline-block mr-2"><a class="bg-orange-500 transition duration-500   transform  hover:-translate-y-2 inline-block p-2  rounded-sm btn" href=""><svg width="22" height="10" viewBox="0 0 22 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M1.10443 8.29032H0.668945V5.82258H1.10443V8.29032ZM2.12056 9.1129H1.68507V5.19355H2.12056V9.1129ZM2.94314 9.30645H2.50766V4.75806H2.94314V9.30645ZM3.76572 9.5H3.33024V4.95161H3.76572V9.5ZM4.78185 9.5H4.39475V3.54839H4.78185V9.5ZM5.60443 9.5H5.21733V2.72581H5.60443V9.5ZM6.66895 9.5H6.23346V2.29032H6.66895V9.5ZM7.49153 9.5H7.05604V2.09677H7.49153V9.5ZM8.50766 9.5H8.12056V2.29032H8.50766V9.5ZM9.33024 9.5H8.94314V2.48387H9.33024V9.5ZM10.1528 9.5H9.76572V1.66129H10.1528V9.5ZM11.2173 9.5H10.7818V1.03226H11.2173V9.5ZM18.7657 9.45161H11.7012C11.5077 9.45161 11.4109 9.35484 11.4109 9.16129V1.08065C11.4109 0.951613 11.4915 0.854839 11.6528 0.790323C12.2012 0.596774 12.7496 0.5 13.298 0.5C14.4593 0.5 15.4673 0.895161 16.3222 1.68548C17.177 2.47581 17.6689 3.43548 17.798 4.56452C18.0883 4.43548 18.4109 4.37097 18.7657 4.37097C19.4754 4.37097 20.0802 4.62097 20.5802 5.12097C21.0802 5.62097 21.3302 6.22581 21.3302 6.93548C21.3302 7.64516 21.0802 8.24194 20.5802 8.72581C20.0802 9.20968 19.4754 9.45161 18.7657 9.45161Z"
@@ -1259,19 +1189,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright  pt-10 md:flex  sm:justify-between">
-                    <ul class="flex mb-10 md:mb-0 order-last">
-                        <li class="px-2  font-normal text-base text-blueGray-200"><a href="index.html"
-                                class="underline-hover  font-normal">Cookies</a></li>
+                <div class="footer-copyright  pt-10 lg:flex  sm:justify-between">
+                    <ul class="flex mb-10 lg:mb-0 order-last">
+                        <li class="px-2  font-normal text-base text-blueGray-200"><a href="index.html" class="underline-hover  font-normal">Cookies</a></li>
                         <li class="text-blueGray-200  font-normal text-base">|</li>
-                        <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html"
-                                class="underline-hover  font-normal">Privacy</a></li>
+                        <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html" class="underline-hover  font-normal">Privacy</a></li>
                         <li class=" text-base px-2 text-blueGray-200   font-normal">|</li>
-                        <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html"
-                                class="underline-hover  font-normal">Terms</a></li>
+                        <li class=" text-base px-2 text-blueGray-200  font-normal"><a href="index.html" class="underline-hover  font-normal">Terms</a></li>
                     </ul>
-                    <p class="text-blueGray-200 text-base font-normal ">© 2021 Dr Mark Van Rijmenam, <a
-                            class="text-lightBlue-500" href="">The Digital Speaker.</a> All rights reserved.
+                    <p class="text-blueGray-200 text-base font-normal ">© 2021 Dr Mark Van Rijmenam, <a class="text-lightBlue-500" href="">The Digital Speaker.</a> All rights reserved.
 
                     </p>
 
@@ -1280,27 +1206,24 @@
             </div>
         </footer>
         <!--  ====================== Footer Area End =============================  -->
-    </div>
-    <!-- Start Scroll To Top -->
-    <div
-        class="scroll-top    h-12 w-12 text-center fixed bottom-10 right-10 z-50 cursor-pointer transition-all rounded-full">
-        <div
-            class="scroll-icon bg-lightBlue-500 hover:bg-blueGray-900  shadow-sm transition duration-500 rounded-md p-3">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+        </div>
+        <!-- Start Scroll To Top -->
+        <div class="scroll-top    h-12 w-12 text-center fixed bottom-10 right-10 z-50 cursor-pointer transition-all rounded-full">
+            <div class="scroll-icon bg-lightBlue-500 hover:bg-blueGray-900  shadow-sm transition duration-500 rounded-md p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
                 <g fill="white">
                     <path fill-rule="evenodd"
                         d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
                 </g>
             </svg>
 
+            </div>
         </div>
-    </div>
-    <!-- End Scroll To Top -->
-    <!-- gulp:js -->
-    <script src="assets/js/build.min.js"></script>
-    <script src="assets/js/jquery.typer.js"></script>
-    <!-- endgulp -->
+        <!-- End Scroll To Top -->
+        <!-- gulp:js -->
+        <script src="assets/js/build.min.js"></script>
+        <script src="assets/js/jquery.typer.js"></script>
+        <!-- endgulp -->
 </body>
 
 </html>

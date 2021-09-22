@@ -13,7 +13,7 @@
     =============================
     */
 
-    var File_Name = 'html-clarizent.zip';
+    var File_Name = 'html-speker.zip';
     var CSS_Files = [
  
    //  './assets/css/tailwind.css',
@@ -22,6 +22,7 @@
        './node_modules/jquery-nice-select/css/nice-select.css',
        './node_modules/slick-carousel/slick/slick.css',
       './node_modules/aos/dist/aos.css', 
+      './assets/css/responsive.css',
        './assets/css/custom.css',
     ];
     var JS_Files = [

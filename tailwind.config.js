@@ -121,9 +121,14 @@ module.exports = {
         '20': '0.2',
         '95': '0.95',
         '50': '50%',
+       },
+       lineHeight: {
+        
+        '7': '1.8rem',
        }
      
     },
+    
     
   },
   // Other stuff
