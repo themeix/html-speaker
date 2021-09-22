@@ -82,17 +82,23 @@
       }
     ]
   });
-  // Aos Js 
-  AOS.init({
-    offset: 50,
-    delay: 200,
-    duration: 2000,
-    easing: 'ease',
-    once: true,
-    mirror: true,
-    anchorPlacement: 'top-center',
 
-  });
+  
+ /* Aos Js */
+ AOS.init({
+  offset: 50,
+  delay: 0,
+  duration: 400,
+  easing: 'ease-in-out',
+  debounceDelay: 20,
+  throttleDelay: 50,
+  once: true,
+  mirror: false,
+  anchorPlacement: 'top-bottom',
+});
+
+
+  
   $(document).ready(function () {
     $('select').niceSelect();
   });
