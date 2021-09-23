@@ -466,6 +466,9 @@ body {
     .cta-box{
         background-image: url(../images/index-1/cta.jpg);
     }
+    .cta-background-about{
+        background-image: url(../images/about/about-cta.jpg);
+    }
  }
 
 
@@ -478,6 +481,22 @@ body {
 }
 .gallery-images:hover .gallery-show{
     opacity: 10;
+}
+.topics-box:hover a{
+    color: white;
+}
+.topics-box:hover path{
+    fill:white
+}
+
+.vp-preview.vp-preview-cover {
+    border-radius: 10px ;
+}
+.podcast-icon-show img{
+    width: 100px;
+}
+.podcast-icon-hover img{
+    width: 100px;
 }
 
 
