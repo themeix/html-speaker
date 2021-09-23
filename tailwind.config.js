@@ -6,6 +6,8 @@ module.exports = {
 
     extend: {
       colors: {
+        "primary": "#0984E3",
+        "PrimaryLight-10": "#E7F3FE",
         "blueGray-200": "#E2E8F0",
         "blueGray-600": "#475569",
         "blueGray-900": "#0F172A",
@@ -15,6 +17,7 @@ module.exports = {
         "lightBlue-400": "#38BDF8",
         "lightBlue-500": "#0EA5E9",
         "lightBlue-600": "#0284C7",
+        "lightBlue-70": "#0C85F4",
         "lightBlue-900": "#0C4A6E",
         "lightBlue-100": "#E0F2FE",
         "lightBlue-200": "#BAE6FD",

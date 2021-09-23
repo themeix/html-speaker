@@ -476,6 +476,9 @@ body {
  .hero-area {
     height:492px
 }
+.gallery-images:hover .gallery-show{
+    opacity: 10;
+}
 
 
 

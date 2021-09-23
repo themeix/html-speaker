@@ -32,6 +32,7 @@
         './node_modules/slick-carousel/slick/slick.min.js', 
         './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',  
    './node_modules/aos/dist/aos.js',
+   './node_modules/isotope-layout/dist/isotope.pkgd.js',
         './assets/js/app.js',   
     ];
    

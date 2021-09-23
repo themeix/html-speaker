@@ -97,7 +97,7 @@
   anchorPlacement: 'top-bottom',
 });
 
-
+ 
   
   $(document).ready(function () {
     $('select').niceSelect();
@@ -140,7 +140,17 @@
   }
 
 
-
+ /*=====| Popup |=====*/
+ $('.portfolio-popup-icon').magnificPopup({
+  type: 'image',
+  closeOnContentClick: true,
+  mainClass: 'mfp-fade',
+  gallery: {
+    enabled: true,
+    navigateByImgClick: true,
+    preload: [0, 1]
+  }
+});
   // When the user scrolls the page, execute myFunction 
   window.onscroll = function () {
     myFunction()
