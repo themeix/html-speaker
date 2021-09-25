@@ -215,23 +215,74 @@ function toggleModal() {
  
 }
 
-function toggleModaltopics() {
-  document.getElementById('modal-popup').classList.toggle('hidden')
-  function toggleModaltopics() {
-    document.getElementById('modal-cheek').classList.toggle('hidden')
-  }
+function toggleModala() {
+  document.getElementById('modal-popup-1').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalb() {
+  document.getElementById('modal-popup-2').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalc() {
+  document.getElementById('modal-popup-3').classList.toggle('hidden')
+ 
+  
+}
+function toggleModald() {
+  document.getElementById('modal-popup-4').classList.toggle('hidden')
+ 
+  
+}
+function toggleModale() {
+  document.getElementById('modal-popup-5').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalf() {
+  document.getElementById('modal-popup-6').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalg() {
+  document.getElementById('modal-popup-7').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalh() {
+  document.getElementById('modal-popup-8').classList.toggle('hidden')
+ 
+  
+}
+function toggleModali() {
+  document.getElementById('modal-popup-9').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalj() {
+  document.getElementById('modal-popup-10').classList.toggle('hidden')
+ 
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+function toggleModalk() {
+  document.getElementById('modal-popup-11').classList.toggle('hidden')
+ 
+  
+}
+function toggleModall() {
+  document.getElementById('modal-popup-12').classList.toggle('hidden')
+ 
+  
+}
+function toggleModalm() {
+  document.getElementById('modal-popup-13').classList.toggle('hidden')
+ 
+  
+}
+function toggleModaln() {
+  document.getElementById('modal-popup-14').classList.toggle('hidden')
+ 
+  
+}
