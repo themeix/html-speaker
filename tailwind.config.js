@@ -2,6 +2,34 @@ module.exports = {
   mode: 'jit',
   purge: ['./*.html'],
   darkMode: false,
+   corePlugins: {
+    container: false 
+  },
+    plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '580px',
+          },
+          '@screen md': {
+            maxWidth: '980',
+          },
+          '@screen lg': {
+            maxWidth: '1176px',
+          },
+          '@screen xl': {
+            maxWidth: '1140',
+          },
+          '@screen 2xl': {
+            maxWidth: '1316px', 
+          },
+        }
+      })
+    } 
+  ],
+  
   theme: {
 
     extend: {
