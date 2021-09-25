@@ -440,7 +440,7 @@ body {
 	height: 30px;
 	text-align: center;
 	padding: 4px 0;
-	left: -55px;
+	left: -55px ;
 	border: 0;
 	position: absolute;
 	top: 50%;
@@ -456,25 +456,7 @@ body {
    stroke: #0EA5E9;
 }
 
-@media (min-width: 991px) { 
-    
- }
- @media (min-width: 768px) { 
-    .hero-area {
-        height: 935px !important;
-    }
-    .cta-box{
-        background-image: url(../images/index-1/cta.jpg);
-    }
-    .cta-background-about{
-        background-image: url(../images/about/about-cta.jpg);
-    }
- }
 
-
- @media (min-width: 640px) { 
-   
- }
 
  .hero-area {
     height:492px
@@ -500,11 +482,33 @@ body {
 }
 
 
-@media (min-width: 1536px) {
-    .container {
-        max-width: 1316px;
+@media (min-width: 1316px) { 
+    .slider-arrows .slider-next, .testimonial-area .slider-arrows .slider-prev {
+        left: -100px;
     }
+    .testimonial-area .slider-arrows .slider-next {
+        right: -100px;
     }
+}
 
+@media (min-width: 991px) { 
+    .testimonial-area .slider-arrows .slider-prev, .slider-arrows .slider-next {
+        left: -55px ;
 
-
+    }
+    
+    .testimonial-area .slider-arrows .slider-next {
+        right: -55px;
+    }
+}
+@media (min-width: 768px) { 
+   .hero-area {
+       height: 935px !important;
+   }
+   .cta-box{
+       background-image: url(../images/index-1/cta.jpg);
+   }
+   .cta-background-about{
+       background-image: url(../images/about/about-cta.jpg);
+   }
+}
