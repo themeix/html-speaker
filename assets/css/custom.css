@@ -512,3 +512,10 @@ body {
        background-image: url(../images/about/about-cta.jpg);
    }
 }
+.p-margin p{
+    margin-bottom: 16px;
+}
+
+.p-margin p:last-child {
+  margin-bottom:0px
+  }
