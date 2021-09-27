@@ -93,6 +93,219 @@ body {
 
 
 
+
+
+
+.entry-content blockquote {
+    font-size: 18px;
+    position: relative;
+    padding-left: 34px;
+    margin-bottom: 32px;
+    background-color:#F1F5F9;
+    font-style:italic;
+    color:#475569;
+    font-weight:400;
+    line-height:52px
+}
+
+.entry-content blockquote::before {
+    content: "";
+    background-color: #007fb3;
+    width: 4px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.entry-content pre {
+    background-color: #fafdfe;
+}
+
+.entry-content hr {
+    position: relative;
+    margin-bottom: 32px;
+    border: 0;
+    height: 65px;
+    overflow: visible;
+}
+
+.entry-content hr::before {
+    content: "";
+    width: 64px;
+    height: 64px;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0 16px 20px 0 #0000000f;
+    background-image: url(../images/about/about-2-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.entry-content hr::after {
+    content: "";
+    border-top: 1px solid #d0e2e8;
+    position: absolute;
+    top: 33px;
+    right: 0;
+    left: 0;
+}
+
+
+.entry-content a {
+    color: #007fb3;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+    font-weight: 700;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content ul,
+.entry-content ol {
+    margin-bottom: 32px;
+}
+
+.entry-content h1 {
+    font-size: 3rem;
+}
+
+.entry-content h2 {
+    font-size: 40px;
+}
+
+.entry-content h3 {
+    font-size: 24px;
+}
+
+.entry-content h4 {
+    font-size: 1.5rem;
+}
+
+.entry-content h5 {
+    font-size: 1.2rem;
+}
+
+.entry-content ul {
+    list-style: none;
+}
+
+.entry-content ul li {
+    position: relative;
+    padding-left: 16px;
+}
+
+.entry-content ul li::before {
+    content: "\2022";
+    color: #475569;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    position: absolute;
+    left: 0;
+}
+
+.entry-content ol {
+    list-style: none;
+}
+
+.entry-content ol li {
+    position: relative;
+    padding: 24px 24px 24px 88px;
+    background-color: #fafdfe;
+    margin-bottom: 16px;
+}
+
+.entry-content ol li h1,
+.entry-content ol li h2,
+.entry-content ol li h3,
+.entry-content ol li h4,
+.entry-content ol li h5,
+.entry-content ol li h6 {
+    margin-bottom: 16px;
+    color: #1e1e1e;
+}
+
+.entry-content ol li p {
+    margin: 0 !important;
+}
+
+.entry-content ol li::before {
+    content: "";
+    background-image: url(../images/about/checked-list.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 24px;
+}
+
+.entry-content p {
+    margin-bottom: 32px;
+}
+
+.entry-content figure {
+    margin-bottom: 32px;
+}
+
+.entry-content figure img {
+    width: 100%;
+}
+
+.entry-content figure figcaption {
+    font-size: 15px;
+    color: #1e1e1e;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.entry-content .grid-list p {
+    margin: 0 !important;
+}
+
+.entry-content .grid-list h1,
+.entry-content .grid-list h2,
+.entry-content .grid-list h3,
+.entry-content .grid-list h4,
+.entry-content .grid-list h5,
+.entry-content .grid-list h6 {
+    margin-bottom: 16px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .underline-hover {
     display: inline;
     background-image: linear-gradient(rgba(0, 0, 0, 0) calc(99% - 1px), #38BDF8 1px);
@@ -151,7 +364,7 @@ body {
     
 }
 .btn:hover path {
-    fill: transparent;
+    fill: white;
     
 }
 
@@ -452,11 +665,41 @@ body {
 	right: -55px;
 }
 
+
+
+.related-articles-area .slider-arrows .slider-prev, .slider-arrows .slider-next {
+	width: 50px;
+	height: 50px;
+
+	padding: 4px 0;
+	left: -55px ;
+	border: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.related-articles-area .slider-arrows .slider-next {
+	left: auto;
+	right: -55px;
+}
+
+
+
+.related-articles-area .slick-slide{
+    margin: 0 15px;
+}
+.related-articles-arear  .slick-list {
+    margin: 0 -15px;
+}
+
 .testimonial-area .slider-arrows button:hover path{
    stroke: #0EA5E9;
 }
 
-
+.slider-arrows button:hover path{
+    fill: white;
+}
 
  .hero-area {
     height:492px

@@ -41,7 +41,7 @@ module.exports = {
         "blueGray-600": "#475569",
         "blueGray-900": "#0F172A",
         "blueGray-300": "#CBD5E1",
-        "blueGray-400": "#F2F2F2",
+        "blueGray-400": "#94A3B8",
         "lightBlue-50": "#f0f9ff",
         "lightBlue-400": "#38BDF8",
         "lightBlue-500": "#0EA5E9",
@@ -57,6 +57,7 @@ module.exports = {
         "orange-500": "#F97316",
         "danger": "#FF7675",
         "green-500": "#22C55E",
+        "teal-500": "#14B8A6",
 
 
       },
@@ -114,7 +115,7 @@ module.exports = {
       boxShadow: {
         sm: '0px 16px 20px 0px rgba(0, 0, 0, 0.059)',
         md: '0px 20px 40px 0px rgba(0, 0, 0, 0.102)',
-        lg: '0px 80px 80px 0px rgba(17, 89, 118, 0.149)',
+        lg: ' 0px 16px 24px 0px #0000000F;',
          xl: '0 7px 14px 0 rgba(0, 0, 0, 0.2)',
 
         none: 'none',
