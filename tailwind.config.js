@@ -35,6 +35,7 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#0984E3",
+        "primary-100": "#2F80ED",
         "PrimaryLight-10": "#E7F3FE",
         "blueGray-200": "#E2E8F0",
         "blueGray-600": "#475569",
@@ -54,6 +55,7 @@ module.exports = {
         "pin-600": "#DB2777",
         "orange-400": "#FB923C",
         "orange-500": "#F97316",
+        "danger": "#FF7675",
         "green-500": "#22C55E",
 
 
