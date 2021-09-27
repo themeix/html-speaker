@@ -151,7 +151,7 @@ body {
     
 }
 .btn:hover path {
-    fill: white;
+    fill: transparent;
     
 }
 
