@@ -61,6 +61,8 @@ module.exports = {
         "danger": "#FF7675",
         "green-500": "#22C55E",
         "teal-500": "#14B8A6",
+        "violet-100": "#EDE9FE",
+        "emerald-100": "#D1FAE5",
 
 
       },
