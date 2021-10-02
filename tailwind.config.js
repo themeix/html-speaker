@@ -38,6 +38,7 @@ module.exports = {
         "primary": "#0984E3",
         "primary-100": "#2F80ED",
         "PrimaryLight-10": "#E7F3FE",
+        "blueGray-50": "#F8FAFC",
         "blueGray-200": "#E2E8F0",
         "blueGray-300": "#CBD5E1",
         "blueGray-400": "#94A3B8",
@@ -62,9 +63,7 @@ module.exports = {
         "green-500": "#22C55E",
         "teal-500": "#14B8A6",
         "violet-100": "#EDE9FE",
-        "emerald-100": "#D1FAE5",
-
-
+        "emerald-300": "#D1FAE5",
       },
       borderColor: theme => ({
         ...theme('colors'),
