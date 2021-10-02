@@ -732,6 +732,7 @@ body {
     .testimonial-area .slider-arrows .slider-next {
         right: -100px;
     }
+    
 }
 
 @media (min-width: 991px) { 
@@ -743,17 +744,23 @@ body {
     .testimonial-area .slider-arrows .slider-next {
         right: -55px;
     }
+    .cta-box{
+        background-image: url(../images/index-1/cta.jpg);
+    }
+    .cta-background-about{
+        background-image: url(../images/about/about-cta.jpg);
+    }
+    .bg-full {
+        background: unset !important;
+    }
 }
 @media (min-width: 768px) { 
    .hero-area {
        height: 935px !important;
    }
-   .cta-box{
-       background-image: url(../images/index-1/cta.jpg);
-   }
-   .cta-background-about{
-       background-image: url(../images/about/about-cta.jpg);
-   }
+  
+  
+
 }
 .p-margin p{
     margin-bottom: 16px;
@@ -762,3 +769,7 @@ body {
 .p-margin p:last-child {
   margin-bottom:0px
   }
+
+  .bg-full {
+    background: #0C4A6E;
+}
