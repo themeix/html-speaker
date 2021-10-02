@@ -123,42 +123,9 @@ body {
     background-color: #fafdfe;
 }
 
-.entry-content hr {
-    position: relative;
-    margin-bottom: 32px;
-    border: 0;
-    height: 65px;
-    overflow: visible;
-}
 
-.entry-content hr::before {
-    content: "";
-    width: 64px;
-    height: 64px;
-    display: block;
-    border-radius: 100%;
-    box-shadow: 0 16px 20px 0 #0000000f;
-    background-image: url(../images/about/about-2-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30px;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
-}
 
-.entry-content hr::after {
-    content: "";
-    border-top: 1px solid #d0e2e8;
-    position: absolute;
-    top: 33px;
-    right: 0;
-    left: 0;
-}
+
 
 
 .entry-content a {
