@@ -131,7 +131,9 @@ body {
 
 
 .entry-content a {
-    color: #007fb3;
+    font-weight: bold;
+    font-style: normal;
+   color: #ef4444;
 }
 
 .entry-content h1,
