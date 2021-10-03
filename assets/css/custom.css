@@ -93,7 +93,9 @@ body {
 
 
 
-
+.entry-content hr {
+    padding-bottom: 16px;
+}
 
 
 .entry-content blockquote {
@@ -150,6 +152,7 @@ body {
 .entry-content ul,
 .entry-content ol {
     margin-bottom: 32px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .entry-content h1 {
@@ -740,3 +743,11 @@ body {
   .bg-full {
     background: #0C4A6E;
 }
+
+
+code {
+    font-weight: bold;
+    font-style: normal;
+   color: #ef4444;
+  }
+  
