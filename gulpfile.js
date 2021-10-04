@@ -33,6 +33,7 @@
         './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',  
    './node_modules/aos/dist/aos.js',
    './node_modules/isotope-layout/dist/isotope.pkgd.js',
+   './node_modules/fitvids.1.1.0/jquery.fitvids.js',
         './assets/js/app.js',   
     ];
    
