@@ -753,6 +753,10 @@ body {
 }
 
 
+.filter-fill:hover path {
+    fill:transparent;
+}
+
 
   
 
