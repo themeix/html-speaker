@@ -29,7 +29,14 @@
 
   /*  Video-popup  */
   $('.video-popup').magnificPopup({
-    type: 'iframe'
+    type: 'iframe',
+    closeOnContentClick: true,
+    mainClass: 'mfp-fade',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1]
+    }
   });
 
 
