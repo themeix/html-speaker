@@ -557,7 +557,7 @@ body {
 }
 
 .header-sticky {
-    background-color: #ffffff;
+    background-color:#E0F2FE;
     position: fixed;
     top: 0 !important;
     animation: header-top 0.5s ease;
@@ -754,9 +754,6 @@ body {
 
 
 
-code {
-    font-weight: bold;
-    font-style: normal;
-   color: #ef4444;
-  }
   
+
+
