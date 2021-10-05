@@ -213,7 +213,11 @@
 }(jQuery));
 
 
-
+function toggleModalaa() {
+  document.getElementById('modal-popup-0').classList.toggle('hidden')
+ 
+  
+}
 
 function toggleModala() {
   document.getElementById('modal-popup-1').classList.toggle('hidden')
