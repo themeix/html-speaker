@@ -11,16 +11,16 @@ module.exports = {
         '.container': {
           maxWidth: '100%',
           '@screen sm': {
-            maxWidth: '580px',
+            maxWidth: '610px',
           },
           '@screen md': {
-            maxWidth: '980',
+            maxWidth: '750px',
           },
           '@screen lg': {
-            maxWidth: '1176px',
+            maxWidth: '1000px',
           },
           '@screen xl': {
-            maxWidth: '1140',
+            maxWidth: '1200px',
           },
           '@screen 2xl': {
             maxWidth: '1316px', 
@@ -82,6 +82,10 @@ module.exports = {
         
 
       },
+      maxWidth: {
+        '200': '200px',
+       
+       },
       fontFamily: {
         sans: [
           '"Red Hat Display",sans-serif',
