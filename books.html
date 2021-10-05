@@ -21,7 +21,7 @@
 <body>
 
     <!--  ====================== Header Area Start =============================  -->
-    <header class="header-area py-8 lg:py-2">
+    <header class="header-area py-4 lg:py-2">
         <div class="container mx-auto">
             <div class="flex items-center relative lg:px-3">
                 <button class="mobile-toggle flex items-center lg:hidden" aria-label="Menu Button">
@@ -29,8 +29,8 @@
                     <span></span>
                     <span></span>
                 </button>
-                <div class="header-logo flex-1">
-                    <a class="pt-2 w-56 md:w-80 inline-block text-primary-600 " href="index.html">
+                <div class="header-logo  flex-1">
+                    <a class="pt-2 w-48 xl:w-80 inline-block text-primary-600 " href="index.html">
                         <img src="assets/images/header/header-logo.jpg" alt="">
 
 
@@ -39,28 +39,68 @@
                 </div>
                 <div class="mobile-menu hidden lg:flex flex-wrap items-center shadow-xl lg:shadow-none  ">
                     <ul class="navbar-nav lg:flex items-center text-base">
-                        <li><a class="text-blueGray-900 font-medium text-base" href="about.html"> About</a></li>
+                        
                         <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base"
-                                href="services.html">
-                                Services <span class="sub-toggle">+</span></a>
+                                href="about.html">
+                                About <span class="sub-toggle">+</span></a>
                             <ul class="dropdown-menu lg:pt-6 bg-transparent ">
-                                <li><a class="font-medium text-blueGray-900 text-base" href="ebooks.html"> eBooks /
-                                        Tools /
-                                        Assessment </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base" href="about-concept.html"> The
+                                        Hologram Concept </a></li>
                                 <li><a class="font-medium text-blueGray-900 text-base"
-                                        href="newsletter-archive.html">Newsletter
-                                        Archive</a></li>
+                                        href="the-avatar-concept.html">Avatar or Hologram keynotes </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base"
+                                        href="about-holograram.html">Virtual Keynotes </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base"
+                                        href="testimonial.html">References </a></li>
+                                        <li><a class="font-medium text-blueGray-900 text-base"
+                                            href="master-class.html">Masterclass  </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base"
+                                        href="podcast-internal.html">Podcast</a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base"
+                                        href="newsletter-archive.html">Subscribe </a></li>
                             </ul>
                         </li>
-                        <li><a class="font-medium text-blueGray-900 text-base" href="book.html"> Books </a></li>
+                        <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base"
+                                href="books.html">
+                                Books <span class="sub-toggle">+</span></a>
+                            <ul class="dropdown-menu lg:pt-6 bg-transparent ">
+                                <li><a class="font-medium text-blueGray-900 text-base" href="books-tomorrow.html"> The
+                                        Organisation of Tomorrow </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base"
+                                        href="books-blockchain.html">Blockchain </a></li>
+                                <li><a class="font-medium text-blueGray-900 text-base" href="books-bigger.html">Think
+                                        Biggers </a></li>
+                                
+                               
+                               
+                            </ul>
+                        </li>
 
-                        <li>
-                            <a class="font-medium text-blueGray-900 text-base" href="podcasts.html"> Podcasts </a>
+                        
+
+
+                        <li><a class="text-blueGray-900 font-medium text-base" href="articles.html">Articles </a></li>
+                                               
+                       
+                        <li><a class="text-blueGray-900 font-medium text-base" href="keynote-topics.html">Keynote Topics</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle inline-block font-medium text-base"
+                            href="#">
+                            Media <span class="sub-toggle">+</span></a>
+                        <ul class="dropdown-menu lg:pt-6 bg-transparent ">
+                            <li><a class="font-medium text-blueGray-900 text-base" href="videos.html"> 
+                                    Videos </a></li>
+                            <li><a class="font-medium text-blueGray-900 text-base"
+                                    href="presentations.html">Presentation </a></li>
+                            <li><a class="font-medium text-blueGray-900 text-base" href="gallery.html">Gallery </a></li>
+                          
+                           
+                        </ul>
+                    </li>
 
                         </li>
 
-                        <li><a class="font-medium text-blueGray-900 text-base" href="insights.html"> Insights </a></li>
-                        <li><a class="font-medium text-blueGray-900 text-base" href="contact.html"> Get In Touch </a>
+                      
+                        <li><a class="font-medium text-blueGray-900 text-base" href="contact.html"> Contact </a>
                         </li>
                         <li class="hidden lg:block">
                             <a class="font-medium text-blueGray-900 text-base inline-block" href="#"
@@ -81,88 +121,44 @@
 
 
         </div>
-        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden h-full bg-white" id="modal">
 
-            <div class="modal-dialog w-full max-w-full m-0">
-                <div class="modal-content bg-white pb-24">
-                    <div class="container mx-auto">
-                        <div class="container-wrapper">
-                            <div class="modal-body">
-                                <div class="headermodal-form py-8 mb-8 border-b flex justify-between items-center">
-                                    <form class="flex items-center flex-auto mr-8" action="#">
-                                        <div class="mr-8"><img class="h-10 w-10 "
-                                                src="assets/images/header/search-icon.svg" alt="search-icon"></div>
-                                        <input
-                                            class=" appearance-none rounded w-full py-2 px-3 text-black leading-tight h-20 text-4xl font-medium border-0 "
-                                            type="text" placeholder="Username">
-                                    </form>
-                                    <div class="search-close cursor-pointer" onclick="toggleModal()">
-                                        <img class="h-10 w-10" src="assets/images/header/cancel.svg" alt="title">
-                                    </div>
-
-                                </div>
-                                <h4 class="mb-6 text-2xl font-bold">Top Categories</h4>
-                                <div class="search-suggestions mb-8">
-                                    <a class="btn bg-lightBlue-100 leading-none font-bold rounded-sm p-3 mr-2"
-                                        href="podcast.html">Technology</a>
-                                    <a class="btn bg-lightBlue-100  font-bold leading-none rounded-sm p-3 mr-2"
-                                        href="podcast.html">Episode
-                                        10</a>
-                                    <a class="btn bg-lightBlue-100 leading-none font-bold rounded-sm p-3 mr-2"
-                                        href="podcast.html">Conversation</a>
-                                    <a class="btn bg-lightBlue-100 leading-none font-bold rounded-sm p-3"
-                                        href="podcast.html">Audio</a>
-                                </div>
-                                <h4 class="mb-6 font-bold text-2xl">Picked for you</h4>
-                                <div class="grid grid-cols-2  lg:grid-cols-3  gap-8">
-
-                                    <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/1.jpg"
-                                            alt="header-1">
-                                        <div class="search-block-content">
-                                            <div class="search-block-meta">
-                                                <span>Episode </span>
-                                            </div>
-                                            <h6 class="text-xl font-bold"><a href="single.html">The Rise of Digitalism:
-                                                    The Digital Speaker series EP09</a></h6>
-                                        </div>
-                                    </article>
-
-
-                                    <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/2.jpg"
-                                            alt="header-2">
-                                        <div class="search-block-content">
-                                            <div class="search-block-meta">
-                                                <span>Episode </span>
-                                            </div>
-                                            <h6 class="tex-lg font-bold"><a href="single.html">Why Data Rights Will Be
-                                                    The New Civil Rights</a></h6>
-                                        </div>
-                                    </article>
-
-
-                                    <article class="flex p-2 bg-lightBlue-100 rounded-sm">
-                                        <img class="w-24 h-24 rounded-sm mr-5" src="assets/images/header/3.jpg"
-                                            alt="header-3">
-                                        <div class="search-block-content">
-                                            <div class="search-block-meta">
-                                                <span>Episode </span>
-                                            </div>
-                                            <h6 class="font-bold text-xl"><a href="single.html">Digitally Savvy
-                                                    Politicians and Liquid Neural Networks</a></h6>
-                                        </div>
-                                    </article>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </header>
+
+    <div
+        class=" header-bottombar border-b opacity-0 absolute  header-navbar navbar navbar-expand-lg navbar-light border-bottom border-1">
+        <div class="sticky-share-wrapper header-bottombar items-center  bg-lightBlue-100">
+            <div class="container mx-auto flex justify-between lg:px-3 items-center py-6">
+
+                <div  class="mr-10 hidden md:block">
+                    <a href="index.html"><img src="assets/images/header/sticky-menu.png" alt="header-logo"></a>
+                </div>
+                <form class="flex items-center leading-0" action="#">
+                    <div class="mr-2">
+
+                        <input
+                            class=" appearance-none  border rounded-sm w-full py-2 px-4 text-sm leading-none border-blueGray-400 "
+                            type="text" placeholder="Name">
+                    </div>
+                    <div class="mr-2">
+
+                        <input
+                            class=" appearance-none border-blueGray-400 border rounded-sm w-full py-2 text-sm px-4  leading-none "
+                            type="text" placeholder="Email">
+                    </div>
+                    <div ><a
+                            class="py-2 w-full lg:w-auto text-center  px-6 btn rounded-sm leading-20 bg-lightBlue-400 text-white text-base font-medium"
+                            href="#">Subscribe </a></div>
+                  
+                    
+                    
+
+                </form>
+               
+
+            </div>
+        </div>
+
+    </div>
     <div class="main">
         <!--  ====================== Header Area End =============================  -->
         <!--  ====================== Breadcrumbs Area Start =============================  -->

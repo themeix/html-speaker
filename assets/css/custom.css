@@ -126,10 +126,6 @@ body {
 }
 
 
-
-
-
-
 .entry-content a {
     font-weight: bold;
     font-style: normal;
@@ -265,16 +261,6 @@ body {
 .entry-content .grid-list h6 {
     margin-bottom: 16px !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -560,7 +546,8 @@ body {
     background-color:#E0F2FE;
     position: fixed;
     top: 0 !important;
-    animation: header-top 0.5s ease;
+
+    animation: headerSlideDown .95s ease forwards; 
     right: 0 !important;
     left: 0 !important;
     z-index: 9999;
@@ -759,24 +746,27 @@ body {
 
 
 
+@-webkit-keyframes headerSlideDown {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
     
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes headerSlideDown {
+
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

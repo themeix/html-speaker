@@ -213,10 +213,7 @@
 }(jQuery));
 
 
-function toggleModal() {
-  document.getElementById('modal').classList.toggle('hidden')
- 
-}
+
 
 function toggleModala() {
   document.getElementById('modal-popup-1').classList.toggle('hidden')
