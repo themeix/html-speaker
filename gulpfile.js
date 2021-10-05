@@ -16,25 +16,24 @@
     var File_Name = 'html-speker.zip';
     var CSS_Files = [
  
-   //  './assets/css/tailwind.css',
-       './node_modules/magnific-popup/dist/magnific-popup.css',
-       './node_modules/tailwindcss/tailwind.css',
-       './node_modules/jquery-nice-select/css/nice-select.css',
-       './node_modules/slick-carousel/slick/slick.css',
-      './node_modules/aos/dist/aos.css', 
-      './assets/css/responsive.css',
-       './assets/css/custom.css',
+    './node_modules/magnific-popup/dist/magnific-popup.css',
+    './node_modules/tailwindcss/tailwind.css',
+    './node_modules/jquery-nice-select/css/nice-select.css',
+    './node_modules/slick-carousel/slick/slick.css',
+    './node_modules/aos/dist/aos.css', 
+    './assets/css/responsive.css',
+    './assets/css/custom.css',
     ];
     var JS_Files = [
-        './node_modules/jquery/dist/jquery.min.js',
-        './node_modules/jquery.easing/jquery.easing.min.js',
-        './node_modules/jquery-nice-select/js/jquery.nice-select.min.js', 
-        './node_modules/slick-carousel/slick/slick.min.js', 
-        './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',  
-   './node_modules/aos/dist/aos.js',
-   './node_modules/isotope-layout/dist/isotope.pkgd.js',
-   './node_modules/fitvids.1.1.0/jquery.fitvids.js',
-        './assets/js/app.js',   
+    './node_modules/jquery/dist/jquery.min.js',
+    './node_modules/jquery.easing/jquery.easing.min.js',
+    './node_modules/jquery-nice-select/js/jquery.nice-select.min.js', 
+    './node_modules/slick-carousel/slick/slick.min.js', 
+    './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',  
+    './node_modules/aos/dist/aos.js',
+    './node_modules/isotope-layout/dist/isotope.pkgd.js',
+    './node_modules/fitvids.1.1.0/jquery.fitvids.js',
+    './assets/js/app.js',   
     ];
    
 /*
@@ -56,8 +55,7 @@
 		replace 		= require('gulp-replace'),
 		size 			= require('gulp-size'),
 		zip 			= require('gulp-zip'),
-
-		// postcss 		= require('postcss'),
+        
 		atimport 		= require("postcss-import"),
 		purgecss 		= require("@fullhuman/postcss-purgecss"),
 		tailwindcss 	= require("tailwindcss"),
