@@ -300,6 +300,7 @@ body {
 
 .duration-500 {
     transition-duration: .5s !important;
+    transition: .5s !important;
 }
 .btn {
     transition: 0.5s;
