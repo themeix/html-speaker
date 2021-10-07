@@ -282,8 +282,25 @@ body {
     background-size: 100% 100%;
 }
 
+.skew-hover-action img {
+    transition: .5s;
+    
+}
+.images-skew-hover:hover .skew-hover-action img{
+    transform: scale(1.1);
+}
 
 
+.arrow-hover-right:hover svg {
+    transform: translatex(10px);
+}
+.arrow-hover-right svg {
+    transition: .5s;  
+}
+
+.duration-500 {
+    transition-duration: .5s !important;
+}
 .btn {
     transition: 0.5s;
     display: inline-block;
