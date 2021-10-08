@@ -738,6 +738,7 @@ body {
     .bg-full-2{
         background: unset !important;
     }
+    
 }
 @media (min-width: 768px) { 
    .hero-area {
