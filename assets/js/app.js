@@ -1,7 +1,8 @@
 (function ($) {
   "use strict";
 
-
+  
+ 
 
   /*  Sticky Header */
   $(window).on('scroll', function () {
@@ -37,18 +38,7 @@
       navigateByImgClick: true,
       preload: [0, 1]
     }
-  });
-
-
-  $(".container-video").fitVids();
-  // Custom selector and No-Double-Wrapping Prevention Test
-  $(".container-video").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
-
-
-
-
-
-  
+  }); 
 
   //Logo Slider
 
@@ -145,6 +135,7 @@
   
   $(document).ready(function () {
     $('select').niceSelect();
+
   });
 
 
