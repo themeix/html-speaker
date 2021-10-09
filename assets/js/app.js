@@ -40,6 +40,14 @@
     }
   }); 
 
+
+
+  
+  $(".container-video").fitVids();
+  // Custom selector and No-Double-Wrapping Prevention Test
+  $(".container-video").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+
+
   //Logo Slider
 
   $('.logo-slider').slick({
