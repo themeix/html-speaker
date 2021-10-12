@@ -800,3 +800,21 @@ body {
     }
 }
 
+
+
+.gallery-images.themeix-gallery-height-6 img {
+    height: 383px;
+    object-fit: cover;
+}
+
+
+
+
+.inline-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+  }
