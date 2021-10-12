@@ -124,6 +124,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+
 }
 
 .entry-content pre {
@@ -132,8 +133,8 @@ body {
 
 
 .entry-content a {
-    font-weight: bold;
-    font-style: normal;
+  
+   
    color: #ef4444;
 }
 
@@ -599,6 +600,10 @@ body {
 }
 
 
+.important-block{
+    display: block;
+}
+
 .cta-background{
     background-image: url(../images/Articles/cta.jpg);
 }
@@ -794,3 +799,4 @@ body {
         transform: translateY(0);
     }
 }
+
