@@ -709,7 +709,10 @@ body {
 .gallery-images:hover .gallery-show{
     opacity: 10;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 .vp-preview.vp-preview-cover {
     border-radius: 10px ;
@@ -822,6 +825,7 @@ body {
 
 .inline-popup {
     background: #FFF;
+<<<<<<< Updated upstream
     text-align: left;
     
     margin: 40px auto;
@@ -843,3 +847,17 @@ body {
 .modal-link-popup:hover path{
     fill:white
 }
+=======
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .popup-modal:hover a{
+    color: white;
+}
+.popup-modal:hover path{
+    fill:white
+}
+>>>>>>> Stashed changes
