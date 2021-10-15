@@ -580,6 +580,21 @@ body {
 
 }
 
+.header-sticky-icon {
+  
+    position: fixed;
+    
+
+    animation: headerSlideDown .95s ease forwards; 
+    right: 0 !important;
+    left: 40px !important;
+    z-index: 9999;
+    opacity: 9999 !important;
+
+
+}
+
+
 
 .subscribe-btn .btn{
     display: block !important;
@@ -694,12 +709,7 @@ body {
 .gallery-images:hover .gallery-show{
     opacity: 10;
 }
-.topics-box:hover h3{
-    color: white;
-}
-.topics-box:hover path{
-    fill:white
-}
+
 
 .vp-preview.vp-preview-cover {
     border-radius: 10px ;
@@ -811,13 +821,25 @@ body {
 
 
 .inline-popup {
-    position: relative;
     background: #FFF;
-    padding: 20px;
-    width: auto;
-    max-width: 500px;
-    margin: 20px auto;
+    text-align: left;
+    
+    margin: 40px auto;
+    position: relative;
+    height: auto;
+    margin-top: 8rem;
   }
   .footer-social-icon {
       height: 26px;
   }
+
+
+
+
+
+  .modal-link-popup:hover h3 a{
+    color: white;
+}
+.modal-link-popup:hover path{
+    fill:white
+}

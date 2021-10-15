@@ -13,6 +13,21 @@
       $(".header-bottombar").removeClass("header-sticky");
     }
   });
+
+
+
+/*  Sticky icon */
+$(window).on('scroll', function () {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 450) {
+    $(".sticky-icon").addClass("header-sticky-icon");
+  } else {
+    $(".sticky-icon").removeClass("header-sticky-icon");
+  }
+});
+
+
+
   /*  Mobile Menu */
   $(".mobile-toggle").on("click", function () {
     $(this).toggleClass("open");
