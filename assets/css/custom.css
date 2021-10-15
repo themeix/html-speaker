@@ -96,7 +96,9 @@ body {
     }
 }
 
-
+.bg-top-center {
+    background-position: top center;
+}
 
 .entry-content hr {
     padding-bottom: 16px;
