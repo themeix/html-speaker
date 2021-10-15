@@ -818,3 +818,6 @@ body {
     max-width: 500px;
     margin: 20px auto;
   }
+  .footer-social-icon {
+      height: 26px;
+  }
