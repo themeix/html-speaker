@@ -19,7 +19,7 @@
 /*  Sticky icon */
 $(window).on('scroll', function () {
   var scroll = $(window).scrollTop();
-  if (scroll >= 450) {
+  if (scroll >= 250) {
     $(".sticky-icon").addClass("header-sticky-icon");
   } else {
     $(".sticky-icon").removeClass("header-sticky-icon");

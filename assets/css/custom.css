@@ -585,14 +585,30 @@ body {
     position: fixed;
     
 
-    animation: headerSlideDown .95s ease forwards; 
+    animation: moveInleft .95s ease forwards; 
     right: 0 !important;
-    left: 40px !important;
+    left: 10px !important;
     z-index: 9999;
     opacity: 9999 !important;
 
 
 }
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 
 
 
@@ -809,6 +825,9 @@ body {
         transform: translateY(0);
     }
 }
+
+
+
 
 
 
