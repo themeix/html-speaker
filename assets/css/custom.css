@@ -870,3 +870,8 @@ body {
 .modal-link-popup:hover path{
     fill:white
 }
+
+
+.paper-bottom-part {
+    height: 44px;
+}
