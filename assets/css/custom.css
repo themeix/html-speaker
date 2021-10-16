@@ -837,7 +837,14 @@ body {
     object-fit: cover;
 }
 
-
+.aword-logo img {
+    margin: auto;
+    width: auto;
+    max-width: auto;
+    height: auto;
+    max-height: 80px;
+    text-align: center;
+}
 
 
 .inline-popup {
