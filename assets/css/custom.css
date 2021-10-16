@@ -569,11 +569,10 @@ body {
 }
 
 .header-sticky {
-    background-color:#E0F2FE;
+    background-color: #ffffff;
     position: fixed;
     top: 0 !important;
-
-    animation: headerSlideDown .95s ease forwards; 
+    animation: header-top 0.5s ease;
     right: 0 !important;
     left: 0 !important;
     z-index: 9999;
