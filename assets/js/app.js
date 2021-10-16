@@ -61,7 +61,7 @@ $(window).on('scroll', function () {
 
   
   $(".container-video, .video-container").fitVids();
-  // Custom selector and No-Double-Wrapping Prevention Test
+
 
 
 
