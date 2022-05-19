@@ -23,7 +23,7 @@ module.exports = {
             maxWidth: '1200px',
           },
           '@screen 2xl': {
-            maxWidth: '1316px', 
+            maxWidth: '1644px', 
           },
         }
       })
@@ -84,6 +84,7 @@ module.exports = {
       },
       maxWidth: {
         '200': '200px',
+        '50vw': '50vw',
        
        },
       fontFamily: {
@@ -121,6 +122,7 @@ module.exports = {
        },
 
       boxShadow: {
+        ssm: '0px 6px 0px 0px #dc841f',
         sm: '0px 16px 20px 0px rgba(0, 0, 0, 0.059)',
         md: '0px 20px 40px 0px rgba(0, 0, 0, 0.102)',
         lg: ' 0px 10px 15px 0px #0000001A',
@@ -133,6 +135,7 @@ module.exports = {
         '1/2': '50%',
         '3/4': '75%',
         '3/4': '75%',
+        '3/4': '50vw',
       },
       width: {
         '1/7': '14.2857143%',
@@ -142,6 +145,9 @@ module.exports = {
         '5/7': '71.4285714%',
         '6/7': '85.7142857%',
         'col-2': '16.66667%',
+      },
+      spacing: {
+        '15': '60px',
       },
       zIndex: {
         '-9999': '-9999',
@@ -173,6 +179,12 @@ module.exports = {
         '32': '32.4px',
        }
      
+    },
+
+    height: {
+      '550': '550px',
+      'full': '100%',
+      
     },
     
     
